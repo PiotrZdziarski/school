@@ -33,6 +33,7 @@
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/vendors.bundle.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/myown.css">
 
 </head>
 

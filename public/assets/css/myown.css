@@ -1,0 +1,4 @@
+@media(min-width: 992px) {
+    .when-collapsed{width: 150% !important;}
+}
+.nav-link:hover {color: #00CB54}
