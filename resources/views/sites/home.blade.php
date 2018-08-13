@@ -13,220 +13,26 @@
                         <div class="col-md-6 my-5">
                             <div class="position-relative">
                                 <img class="rounded w-100" src="assets/img/360x400/1.jpg" alt="">
-                                <a href="https://www.youtube.com/watch?v=7e90gBu4pas" data-fancybox class="iconbox iconbox-lg bg-white position-absolute absolute-center">
+                                <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM" data-fancybox class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
                                     <i class="ti-control-play text-primary"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6 mt-4">
                             <h2>
-                                <small class="d-block text-gray">Welcome to</small>
-                                <span class="text-primary">Educati</span> School
+                                <small class="d-block text-gray">Witajcie w</small>
+                                <span class="text-primary">Chełmonie</span>
                             </h2>
                             <p class="my-4">
-                                Investig tiones demons travge wunt ectores legere lkurus quod legunt saepiu clartas est consectetur adipi sicing elitsed kdo eusmod tempor cididunt wuti labore.
-                            </p>
-                            <a href="#" class="btn btn-outline-primary">
-                                Read More
-                            </a>
+                                Nie wiem w sumie co tu napisać. <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium pharetra magna.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mt-5 mt-md-0">
-                    <div class="card shadow-v2 z-index-5" data-offset-top-xl="-160">
-                        <div class="card-header bg-primary text-white border-bottom-0" style="background-color: #4e7fff!important;">
-                        <span class="lead font-semiBold text-uppercase">
-                          Notice Board
-                        </span>
-                        </div>
-
-                        <div class="p-4 border-bottom wow fadeInUp">
-                            <p class="text-primary mb-1 dodgerbluenohover">
-                                July 02, 2018
-                            </p>
-                            <a href="#">
-                                Maximizing potential through individual attention.
-                            </a>
-                        </div>
-
-                        <div class="p-4 border-bottom wow fadeInUp">
-                            <p class="text-primary mb-1">
-                                July 17, 2018
-                            </p>
-                            <a href="#">
-                                Nullam quis ante etiam sit amet eget eros faucibus
-                            </a>
-                        </div>
-
-                        <div class="p-4 border-bottom wow fadeInUp">
-                            <p class="text-primary mb-1">
-                                June 08, 2018
-                            </p>
-                            <a href="#">
-                                Adsing eusmo tempor indeduny
-                            </a>
-                        </div>
-
-                        <div class="p-4 border-bottom wow fadeInUp">
-                            <p class="text-primary mb-1">
-                                June 20, 2018
-                            </p>
-                            <a href="#">
-                                Nullam quis ante etiam sit amet eget eros faucibus
-                            </a>
-                        </div>
-                        <div class="p-4">
-                            <a href="#" class="btn btn-link pl-0">
-                                View All Notices
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                @include('components.aktualnosci')
             </div> <!-- END row-->
         </div> <!-- END container-->
     </section>
 
-
-
-
-
-    <section class="padding-y-100 bg-light-v5">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-12 text-center mb-4">
-                    <h2 class="mb-4">
-                        Upcoming Events
-                    </h2>
-                    <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
-                </div>
-            </div> <!-- END row-->
-
-            <div class="row">
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow fadeIn" data-wow-delay=".1s">
-                    <div class="card shadow-v1">
-                        <div class="padding-40 border-bottom">
-                            <a href="#" class="h4">
-                                Open Schools for Open Societies 2018
-                            </a>
-                        </div>
-                        <ul class="list-unstyled padding-x-40 py-4 line-height-xl">
-                            <li>
-                                <i class="ti-time mr-2 text-primary"></i>
-                                April 13, 2018 @ 8:00 am
-                            </li>
-                            <li>
-                                <i class="ti-location-pin mr-2 text-primary"></i>
-                                184 Main Collins Street
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow fadeIn" data-wow-delay=".2s">
-                    <div class="card shadow-v1">
-                        <div class="padding-40 border-bottom">
-                            <a href="#" class="h4">
-                                Conference on Early School Leaving
-                            </a>
-                        </div>
-                        <ul class="list-unstyled padding-x-40 py-4 line-height-xl">
-                            <li>
-                                <i class="ti-time mr-2 text-primary"></i>
-                                April 13, 2018 @ 8:00 am
-                            </li>
-                            <li>
-                                <i class="ti-location-pin mr-2 text-primary"></i>
-                                184 Main Collins Street
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow fadeIn" data-wow-delay=".3s">
-                    <div class="card shadow-v1">
-                        <div class="padding-40 border-bottom">
-                            <a href="#" class="h4">
-                                A collection of Innovative and Inspiring Resources
-                            </a>
-                        </div>
-                        <ul class="list-unstyled padding-x-40 py-4 line-height-xl">
-                            <li>
-                                <i class="ti-time mr-2 text-primary"></i>
-                                April 13, 2018 @ 8:00 am
-                            </li>
-                            <li>
-                                <i class="ti-location-pin mr-2 text-primary"></i>
-                                184 Main Collins Street
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow fadeIn" data-wow-delay=".1s">
-                    <div class="card shadow-v1">
-                        <div class="padding-40 border-bottom">
-                            <a href="#" class="h4">
-                                A collection of Innovative and Inspiring Resources
-                            </a>
-                        </div>
-                        <ul class="list-unstyled padding-x-40 py-4 line-height-xl">
-                            <li>
-                                <i class="ti-time mr-2 text-primary"></i>
-                                April 13, 2018 @ 8:00 am
-                            </li>
-                            <li>
-                                <i class="ti-location-pin mr-2 text-primary"></i>
-                                184 Main Collins Street
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow fadeIn" data-wow-delay=".2s">
-                    <div class="card shadow-v1">
-                        <div class="padding-40 border-bottom">
-                            <a href="#" class="h4">
-                                Open Schools for Open Societies 2018
-                            </a>
-                        </div>
-                        <ul class="list-unstyled padding-x-40 py-4 line-height-xl">
-                            <li>
-                                <i class="ti-time mr-2 text-primary"></i>
-                                April 13, 2018 @ 8:00 am
-                            </li>
-                            <li>
-                                <i class="ti-location-pin mr-2 text-primary"></i>
-                                184 Main Collins Street
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow fadeIn" data-wow-delay=".3s">
-                    <div class="card shadow-v1">
-                        <div class="padding-40 border-bottom">
-                            <a href="#" class="h4">
-                                Conference on Early School Leaving
-                            </a>
-                        </div>
-                        <ul class="list-unstyled padding-x-40 py-4 line-height-xl">
-                            <li>
-                                <i class="ti-time mr-2 text-primary"></i>
-                                April 13, 2018 @ 8:00 am
-                            </li>
-                            <li>
-                                <i class="ti-location-pin mr-2 text-primary"></i>
-                                184 Main Collins Street
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div> <!-- END row-->
-        </div> <!-- END container-->
-    </section>
 
 
 
@@ -238,23 +44,23 @@
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:url(assets/img/960x560/1.jpg) no-repeat">
                     <div class="padding-x-lg-100 wow pulse">
                         <h2 class="text-white mb-4">
-                            Admission Open for 2018
+                            Rekrutacja na rok 2018/2019
                         </h2>
                         <p>
-                            Investig ationes demons travge vunt lectores legere lrus quodk legunt saepius claritas est cnsectetur adip sicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Consectetur adipi sicing.
+                            Zajęcia odbywają się w dobrze wyposażonych, nowoczesnych pracowniach przedmiotowych i salach lekcyjnych. Uczniowie samodzielnie wykonują doświadczenia i symulacje, mają możliwość wykorzystywania tablic interaktywnych (multimedialnych)!
                         </p>
-                        <a href="#" class="btn btn-white mt-4">Apply now</a>
+                        <a href="#" class="btn btn-white mt-4">Zobacz więcej</a>
                     </div>
                 </div>
-                <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:url(assets/img/960x560/2.jpg) no-repeat">
+                <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:linear-gradient(rgba(9,151,244,0.85),rgba(80,154,244,0.85)),url(assets/img/960x560/3.jpg) no-repeat; !important;">
                     <div class="padding-x-lg-100 wow pulse">
                         <h2 class="text-white mb-4">
-                            Students Orientation 2018
+                            Matury  2018
                         </h2>
                         <p>
-                            Investig ationes demons travge vunt lectores legere lrus quodk legunt saepius claritas est cnsectetur adip sicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Consectetur adipi sicing.
+                            Przedstawiamy porównanie wyników egzaminów maturalnych w naszej szkole ze średnią egzaminów maturalnych dla liceów w Polsce. Zobacz jak wypadła nasza szkoła!
                         </p>
-                        <a href="#" class="btn btn-white mt-4">Apply now</a>
+                        <a href="#" class="btn btn-white mt-4" style="margin-top: 55px !important;">Zobacz więcej</a>
                     </div>
                 </div>
             </div>
@@ -339,180 +145,26 @@
 
 
 
-    <section class="paddingTop-100">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="mb-4">
-                        School Gallery
-                    </h2>
-                    <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
-                </div>
-            </div> <!-- END row-->
-
-            <div class="row marginTop-60">
-                <div class="owl-carousel arrow-edge arrow-black" data-items="4" data-arrow="true" data-tablet-items="2" data-mobile-items="1">
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/1.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/1.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/2.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/2.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/3.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/3.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/4.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/4.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/2.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/2.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/3.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/3.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/4.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/4.jpg" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- END row-->
-
-        </div> <!-- END container-->
-    </section>
+    @include('components.schoolgallery')
 
 
 
-
-    <section class="paddingTop-50 paddingBottom-100">
+    <section class="paddingTop-100 paddingBottom-100">
         <div class="container">
             <div class="row">
-
-                <div class="col-md-6 mt-5">
-                    <h2 class="mb-4">
-                        Facebook Posts
+                <div class="col-lg-9">
+                    <h2 class="display-lg-4 font-weight-bold text-primary wow fadeIn" data-wow-delay=".1s" style="color: #f3ae4d!important;">
+                        Józef Chełmoński
                     </h2>
-                    <div class="width-3rem height-4 rounded bg-primary mb-5"></div>
-
-                    <div class="mb-5 wow fadeIn" data-wow-delay=".1">
-                        <div class="media mb-3">
-            <span class="iconbox iconbox-lg btn btn-facebook rounded mr-4">
-              <i class="ti-facebook"></i>
-            </span>
-                            <div class="media-body">
-                                <h5 class="mb-0">
-                                    EchoTheme
-                                </h5>
-                                <span class="text-gray">
-                3 hours ago
-              </span>
-                            </div>
-                        </div>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores kegere do kurus quodk legunt saepius claritas ekist onsec tetur adipi sicing elit, sed kdo claritas ekist.
-                        </p>
-                        <a href="#" class="text-primary">
-                            https//.fb.com/pagelink
-                        </a>
-                    </div>
-
-                    <div class="mb-5 wow fadeIn" data-wow-delay=".2">
-                        <div class="media mb-3">
-            <span class="iconbox iconbox-lg btn btn-facebook rounded mr-4">
-              <i class="ti-facebook"></i>
-            </span>
-                            <div class="media-body">
-                                <h5 class="mb-0">
-                                    EchoTheme
-                                </h5>
-                                <span class="text-gray">
-                6 hours ago
-              </span>
-                            </div>
-                        </div>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores kegere do kurus quodk legunt saepius claritas ekist onsec tetur adipi sicing elit, sed kdo claritas ekist.
-                        </p>
-                        <a href="#" class="text-primary">
-                            https//.fb.com/pagelink
-                        </a>
-                    </div>
-
+                    <p class="lead wow fadeIn" data-wow-delay=".1s" style="color: #444444">
+                        Polski malarz, reprezentant realizmu. Jego malarstwo charakteryzowało się wielką ekspresją i temperamentem lecz odwzorowywał naturę taka jaka jest w rzecziwstości : surową, nie wyidealizowaną. Jako jeden z nielicznych potrafił ukazać na swych obrazach chrapanie koni, ich rozpędzone sylwetki, mokre od wilgoci drzewa tak realistycznie jak byłyby one tam naprawdę.
+                    </p>
+                    <a href="#" class="btn btn-primary btn-lg mt-3 wow fadeIn btnpatron" data-wow-delay=".1s">Zobacz więcej</a>
                 </div>
-
-                <div class="col-md-6 mt-5">
-                    <h2 class="mb-4">
-                        Latest tweets
-                    </h2>
-                    <div class="width-3rem height-4 rounded bg-primary mb-5"></div>
-
-                    <div class="mb-5 wow fadeIn" data-wow-delay=".1">
-                        <div class="media mb-3">
-            <span class="iconbox iconbox-lg btn btn-twitter rounded mr-4">
-              <i class="ti-twitter"></i>
-            </span>
-                            <div class="media-body">
-                                <h5 class="mb-0">
-                                    EchoTheme
-                                </h5>
-                                <span class="text-gray">
-                3 hours ago
-              </span>
-                            </div>
-                        </div>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores kegere do kurus quodk legunt saepius claritas ekist onsec tetur adipi sicing elit, sed kdo claritas ekist.
-                        </p>
-                        <a href="#" class="text-primary">
-                            https://t.co/rI1M2JlyZG
-                        </a>
-                    </div>
-
-                    <div class="mb-5 wow fadeIn" data-wow-delay=".2">
-                        <div class="media mb-3">
-            <span class="iconbox iconbox-lg btn btn-twitter rounded mr-4">
-              <i class="ti-twitter"></i>
-            </span>
-                            <div class="media-body">
-                                <h5 class="mb-0">
-                                    EchoTheme
-                                </h5>
-                                <span class="text-gray">
-                6 hours ago
-              </span>
-                            </div>
-                        </div>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores kegere do kurus quodk legunt saepius claritas ekist onsec tetur adipi sicing elit, sed kdo claritas ekist.
-                        </p>
-                        <a href="#" class="text-primary">
-                            https://t.co/rI1M2JlyZG
-                        </a>
-                    </div>
-
+                <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                    <img src="assets/img/school/chelmonski.jpg">
                 </div>
-
-            </div> <!-- END row-->
-
-        </div> <!-- END container-->
+            </div>
+        </div>
     </section>
 @endsection

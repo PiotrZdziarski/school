@@ -15,7 +15,7 @@
                     Jednak nauka to nie wszystko – równie ważne są: tradycja, niepowtarzalność i przyjazna atmosfera. To właśnie zapewnia I Liceum Ogólnokształcące im. Józefa Chełmońskiego Łowiczu. Jedni patrzą na nas z zazdrością, inni próbują dorównać. My sami jesteśmy dumni z tego, że uczymy się w I LO.
                     A powodów do dumy jest wiele…
                 </p>
-                <a href="#" class="btn btn-primary btn-lg mt-3 wow slideInUp btnreadmore">Read More</a>
+                <a href="#" class="btn btn-primary btn-lg mt-3 wow slideInUp btnreadmore">Zobacz więcej</a>
             </div>
         </div>
     </div>
