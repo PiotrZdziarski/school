@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class HomeController extends Controller
+class MainController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -14,9 +14,9 @@ class HomeController extends Controller
         //
     }
 
-    public function home()
+    public function aktualnosci()
     {
-        return view('sites.home');
+        return view('layouts.app');
     }
 
     //
