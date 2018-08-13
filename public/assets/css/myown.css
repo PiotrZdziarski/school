@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 .btnreadmore{background-color: dodgerblue !important; border: 0;}
 .btnreadmore:hover{background-color: #0b73c6 !important; border: 0;}
+=======
+@media(min-width: 992px) {
+    .when-collapsed{width: 150% !important;}
+}
+.nav-link:hover {color: #00CB54}
+>>>>>>> b661c549cfe0a25a7c2b3672c6bf86b6c539ae3c

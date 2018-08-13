@@ -1,0 +1,27 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "Technologies: Lumen, Bootstrap, CSS, HTML, JavaScript",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrZdziarski/school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrZdziarski/school/issues"
+  },
+  "homepage": "https://github.com/PiotrZdziarski/school#readme"
+}
