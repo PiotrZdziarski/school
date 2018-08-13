@@ -1,9 +1,31 @@
-<<<<<<< HEAD
 .btnreadmore{background-color: dodgerblue !important; border: 0;}
 .btnreadmore:hover{background-color: #0b73c6 !important; border: 0;}
-=======
 @media(min-width: 992px) {
     .when-collapsed{width: 150% !important;}
 }
+@media(max-width:992px) {
+    .aktualnosci{display: none !important;}
+}
 .nav-link:hover {color: #00CB54}
->>>>>>> b661c549cfe0a25a7c2b3672c6bf86b6c539ae3c
+.btnallacti{color: #0b73c6  !important;}
+.btnallacti:hover{color: #0b9dff !important; text-decoration: none !important; }
+.playvid{transition: .3s all ease-in-out !important;}
+.playvid:hover{font-size: 20px !important; transform: translate(-50%, -50%) scale(1.1)!important;}
+.image4-3{
+    position: absolute;
+    top: 0 !important;
+    display: block;
+    min-height: 100%;
+    left: 0;
+    bottom: 0 !important;
+    right: 0;
+}
+.btnpatron {
+    background-color: #f3ae4d !important;
+    border: 0;
+}
+.btnpatron:hover {
+    background-color: #da9c45 !important;
+}
+
+
