@@ -1,8 +1,8 @@
-<nav class="ec-nav sticky-top bg-white">
+<nav class="ec-nav sticky-top bg-white mainnav">
     <div class="container">
         <div class="navbar p-0 navbar-expand-lg">
             <div class="navbar-brand">
-                <a class="logo-default" href="index.html"><img alt="" src="assets/img/logo-black.png"></a>
+                <a class="logo-default" href="index.html"><img alt="logochelmonski" style="width: 80px; height: 80px;" src="assets/img/logo.png"><img alt="ILO" style="height: 50px; margin-left: 10px;" src="assets/img/ILO.png"></a>
             </div>
             <span aria-expanded="false" class="navbar-toggler ml-auto collapsed" data-target="#ec-nav__collapsible" data-toggle="collapse">
         <div class="hamburger hamburger--spin js-hamburger">

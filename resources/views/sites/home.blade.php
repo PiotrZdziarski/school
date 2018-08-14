@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-md-6 mt-4">
                             <h2>
-                                <small class="d-block text-gray">Witajcie w</small>
+                                <small class="d-block text-gray">Witaj w</small>
                                 <span class="text-primary">Chełmonie</span>
                             </h2>
                             <p class="my-4">
@@ -77,7 +77,7 @@
 
                 <div class="col-12 text-center">
                     <h2 class="mb-4">
-                        Latest School News
+                        Najnowsze aktualności
                     </h2>
                     <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
                 </div>
@@ -161,8 +161,8 @@
                     </p>
                     <a href="#" class="btn btn-primary btn-lg mt-3 wow fadeIn btnpatron" data-wow-delay=".1s">Zobacz więcej</a>
                 </div>
-                <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
-                    <img src="assets/img/school/chelmonski.jpg">
+                <div class="col-lg-3 wow fadeIn chelmonskidiv" data-wow-delay=".1s">
+                    <img class="chelmonski" src="assets/img/school/chelmonski.jpg">
                 </div>
             </div>
         </div>
