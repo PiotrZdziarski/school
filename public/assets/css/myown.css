@@ -1,14 +1,14 @@
 .btnreadmore{background-color: dodgerblue !important; border: 0;}
 .btnreadmore:hover{background-color: #0b73c6 !important; border: 0;}
+.mainnav {
+    position: static !important;
+
+}
 @media(min-width: 992px) {
     .when-collapsed{width: 150% !important;}
 }
 @media(max-width:992px) {
     .aktualnosci{display: none !important;}
-    .mainnav {
-        position: static !important;
-
-    }
     .navbar {height: 100px;}
     .chelmonskidiv{display: flex; justify-content: center;}
     .chelmonski{width: 60% !important; height: 100%; margin-top: 40px;}
@@ -42,5 +42,11 @@
 }
 .its_me{color: #AAAAAA !important;}
 .its_me:hover{color: #CCCCCC !important;}
+.dropdown-menu{border-top: 3px solid dodgerblue !important;}
+.nav-link:hover{color: dodgerblue!important; }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .nav-item{margin-left: 0 !important;}
+    .nav{margin-left:75px !important;}
+}
 
 
