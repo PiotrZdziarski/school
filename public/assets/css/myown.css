@@ -5,6 +5,19 @@
 }
 @media(max-width:992px) {
     .aktualnosci{display: none !important;}
+    .mainnav {
+        position: static !important;
+
+    }
+    .navbar {height: 100px;}
+    .chelmonskidiv{display: flex; justify-content: center;}
+    .chelmonski{width: 60% !important; height: 100%; margin-top: 40px;}
+}
+
+@media(max-width:768px) {
+    .googlemaps {
+        min-height: 290px;
+    }
 }
 .nav-link:hover {color: #00CB54}
 .btnallacti{color: #0b73c6  !important;}
@@ -27,5 +40,7 @@
 .btnpatron:hover {
     background-color: #da9c45 !important;
 }
+.its_me{color: #AAAAAA !important;}
+.its_me:hover{color: #CCCCCC !important;}
 
 

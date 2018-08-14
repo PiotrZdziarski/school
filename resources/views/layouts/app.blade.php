@@ -52,6 +52,10 @@
     </form>
 </div> <!-- END site-search-->--}}
 
+{{--LEFT SLIDE IN PLAN LEKCJI BUT LOOK DISGUSTING --}}
+{{--<div class="wow slideInLeft" style="position: fixed; width: 75px; height: 74px; z-index: 9999999; color: #444444; box-shadow: 0 5px 10px gray; font-family: Montserrat, sans-serif; font-size: 18px; background: #f6f6f6; border-bottom-right-radius: 10px; border-top-right-radius: 10px; left: 0; top: 47.5%; bottom: 52.5%; display: flex; align-items: center; text-align: center; "> Plan Lekcji</div>--}}
+
+
 @yield('content')
 
 
