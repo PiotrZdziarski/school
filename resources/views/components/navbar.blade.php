@@ -18,8 +18,8 @@
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
                                 <li><a class="nav-link__list" href="{{url('/patron')}}">Patron</a></li>
-                                <li><a class="nav-link__list" href="page-about.html">Dyrektorzy</a></li>
-                                <li><a class="nav-link__list" href="page-about.html">W rankingach</a></li>
+                                <li><a class="nav-link__list" href="{{url('/dyrektorzy')}}">Dyrektorzy</a></li>
+                                <li><a class="nav-link__list" href="{{url('/w_rankingach')}}">W rankingach</a></li>
 
                                 <li class="nav-item__has-dropdown">
                                     <a class="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Medale i nagrody </a>

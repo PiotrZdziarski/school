@@ -1,10 +1,12 @@
 .btnreadmore{background-color: dodgerblue !important; border: 0;}
 .btnreadmore:hover{background-color: #0b73c6 !important; border: 0;}
+.portraitimage{width: 45%;}
 .mainnav {
     position: static !important;
 
 }
 @media(min-width: 992px) {
+    .portraitimage{width: 30%;}
     .when-collapsed{width: 150% !important;}
 }
 @media(max-width:992px) {

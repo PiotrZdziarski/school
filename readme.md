@@ -1,6 +1,6 @@
 # School webiste
 
-Technologies: Lumen, Bootstrap, CSS, HTML, JavaScript
+Technologies: Lumen Framework, Bootstrap 4, CSS, HTML, JavaScript, Wow.js
 
 School: 1LO im. Józefa Chełmońskiego w Łowiczu 
 

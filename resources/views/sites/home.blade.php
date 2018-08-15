@@ -159,7 +159,7 @@
                     <p class="lead wow fadeIn" data-wow-delay=".1s" style="color: #444444">
                         Polski malarz, reprezentant realizmu. Jego malarstwo charakteryzowało się wielką ekspresją i temperamentem lecz odwzorowywał naturę taka jaka jest w rzecziwstości : surową, nie wyidealizowaną. Jako jeden z nielicznych potrafił ukazać na swych obrazach chrapanie koni, ich rozpędzone sylwetki, mokre od wilgoci drzewa tak realistycznie jak byłyby one tam naprawdę.
                     </p>
-                    <a href="#" class="btn btn-primary btn-lg mt-3 wow fadeIn btnpatron" data-wow-delay=".1s">Zobacz więcej</a>
+                    <a href="{{url('/patron')}}" class="btn btn-primary btn-lg mt-3 wow fadeIn btnpatron" data-wow-delay=".1s">Zobacz więcej</a>
                 </div>
                 <div class="col-lg-3 wow fadeIn chelmonskidiv" data-wow-delay=".1s">
                     <img class="chelmonski" src="assets/img/school/chelmonski.jpg">
