@@ -8,10 +8,17 @@
     .when-collapsed{width: 150% !important;}
 }
 @media(max-width:992px) {
+    .padding20lowwidth{padding: 0 20px 0 20px !important;}
+    .nopaddinglowwidth{padding:0 !important;}
     .aktualnosci{display: none !important;}
     .navbar {height: 100px;}
     .chelmonskidiv{display: flex; justify-content: center;}
     .chelmonski{width: 60% !important; height: 100%; margin-top: 40px;}
+}
+
+@media(max-width: 476px) {
+    .mainlogo{width: 65px !important; height: 65px !important;}
+    .mainILO{height: 40px !important;}
 }
 
 @media(max-width:768px) {
@@ -47,6 +54,9 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .nav-item{margin-left: 0 !important;}
     .nav{margin-left:75px !important;}
+}
+.aktualnosci_sidebar{
+    margin-top: 27px !important;
 }
 
 

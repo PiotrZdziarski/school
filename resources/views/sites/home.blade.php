@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                @include('components.aktualnosci')
+                @include('components.aktualnosci_home_page')
             </div> <!-- END row-->
         </div> <!-- END container-->
     </section>
