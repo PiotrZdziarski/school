@@ -1,6 +1,6 @@
-<div class="col-lg-4 mt-5 mt-md-0">
-    <div class="card shadow-v1 z-index-5 aktualnosci_sidebar">
-        <div class="card-header bg-primary text-white border-bottom-0" style="background-color: #60c3ff!important;">
+<div class="col-lg-4 mt-5 mt-md-0 aktualnosci">
+    <div class="card shadow-v2 z-index-5" data-offset-top-xl="-160">
+        <div class="card-header bg-primary text-white border-bottom-0" style="background-color: #4e7fff!important;">
                         <span class="lead font-semiBold text-uppercase">
                           Aktualności
                         </span>

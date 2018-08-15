@@ -19,5 +19,10 @@ class MainController extends Controller
         return view('layouts.app');
     }
 
+    public function patron()
+    {
+        return view('sites.patron');
+    }
+
     //
 }

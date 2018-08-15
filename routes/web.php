@@ -13,3 +13,4 @@
 
 $router->get('/', ['as' => 'home', 'uses' => 'HomeController@home']);
 $router->get('/aktualnosci', ['as' => 'aktualnosci', 'uses' => 'MainController@aktualnosci']);
+$router->get('/patron', ['as' => 'patron', 'uses' => 'MainController@patron']);
