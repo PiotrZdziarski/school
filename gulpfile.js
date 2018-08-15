@@ -13,7 +13,8 @@ gulp.task('serve', function () {
     });
 
     gulp.watch('resources/**/*.php', ['reload']);
-    gulp.watch('public/**/*.{js,css,php}', ['reload']);
+    gulp.watch('public/**/*.css', ['reload']);
+    gulp.watch('public/**/*.js', ['reload']);
     /*gulp.watch('public/css/!*.css', ['reload']);*/
 });
 gulp.task('default', ['serve']);

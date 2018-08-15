@@ -24,5 +24,15 @@ class MainController extends Controller
         return view('sites.patron');
     }
 
+    public function dyrektorzy()
+    {
+        return view('sites.dyrektorzy');
+    }
+
+    public function w_rankingach()
+    {
+        return view('sites.w_rankingach');
+    }
+
     //
 }
