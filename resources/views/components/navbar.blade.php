@@ -26,7 +26,7 @@
                                     <div class="dropdown-menu">
                                         <ul class="list-unstyled">
                                             <li><a class="nav-link__list" href="{{url('/nagrody_kola_wychowankow')}}"> Koła Wychowanków </a></li>
-                                            <li><a class="nav-link__list" href="page-signup.html"> Rady pedagogicznej</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/nagrody_rady_pedagogicznej')}}"> Rady pedagogicznej</a></li>
                                         </ul>
                                     </div>
                                 </li>
