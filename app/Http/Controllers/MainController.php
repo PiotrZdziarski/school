@@ -34,5 +34,19 @@ class MainController extends Controller
         return view('sites.w_rankingach');
     }
 
+    public function nagrody_kola_wychowankow()
+    {
+        return view('sites.nagrody_kola_wychowankow');
+    }
+
+    public  function gloria_diligentiae_et_labori()
+    {
+        return view('sites.gloria_diligentiae_et_labori');
+    }
+    public  function nagroda_prof_heleny_jastrzebskiej()
+    {
+        return view('sites.nagroda_prof_heleny_jastrzebskiej');
+    }
+
     //
 }
