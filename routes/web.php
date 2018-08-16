@@ -29,3 +29,4 @@ $router->get('/najlepszy_filozof', ['as' => 'najlepszy_filozof', 'uses' => 'nagr
 $router->get('/najlepszy_przyrodnik', ['as' => 'najlepszy_przyrodnik', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_przyrodnik']);
 $router->get('/najlepszy_filolog', ['as' => 'najlepszy_filolog', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_filolog']);
 $router->get('/najlepszy_geograf', ['as' => 'najlepszy_geograf', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_geograf']);
+$router->get('/rada_pedagogiczna', ['as' => 'rada_pedagogiczna', 'uses' => 'MainController@rada_pedagogiczna']);

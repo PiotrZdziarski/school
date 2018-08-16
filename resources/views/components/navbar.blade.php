@@ -31,7 +31,7 @@
                                     </div>
                                 </li>
 
-                                <li><a class="nav-link__list" href="page-about.html">Rada pedagogiczna</a></li>
+                                <li><a class="nav-link__list" href="{{url('/rada_pedagogiczna')}}">Rada pedagogiczna</a></li>
                                 <li><a class="nav-link__list" href="page-about.html">Samorząd szkolny</a></li>
                                 <li><a class="nav-link__list" href="page-about.html">Statut Szkoły</a></li>
                                 <li><a class="nav-link__list" href="page-about.html">Misja szkoły</a></li>

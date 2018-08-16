@@ -26,7 +26,7 @@
                                 <section class="border-bottom border-light" id="content">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-12 mb-1 text-center">
+                                            <div class="col-12 mb-1 text-center paddingTop-15">
                                                 <h2>Nagroda dla najlepszego geografa</h2>
                                             </div>
                                             <div class="col-lg-11 mx-auto paddingTop-10">
