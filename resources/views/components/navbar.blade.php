@@ -25,7 +25,7 @@
                                     <a class="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Medale i nagrody </a>
                                     <div class="dropdown-menu">
                                         <ul class="list-unstyled">
-                                            <li><a class="nav-link__list" href="page-login.html"> Koła Wychowanków </a></li>
+                                            <li><a class="nav-link__list" href="{{url('/nagrody_kola_wychowankow')}}"> Koła Wychowanków </a></li>
                                             <li><a class="nav-link__list" href="page-signup.html"> Rady pedagogicznej</a></li>
                                         </ul>
                                     </div>

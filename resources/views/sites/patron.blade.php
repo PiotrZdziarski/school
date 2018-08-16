@@ -2,7 +2,7 @@
 @section('content')
 
 
-    <div class="padding-y-60 bg-cover" data-dark-overlay="6" style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+    <div class="padding-y-60 bg-cover" data-dark-overlay="6" style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat;background-position: 55%;">
         <div class="container">
             <h1 class="text-white wow slideInLeft" >
                 Patron
