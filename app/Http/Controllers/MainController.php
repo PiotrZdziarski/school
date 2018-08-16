@@ -74,4 +74,5 @@ class MainController extends Controller
         return view('sites.nagroda_boleslawy_lament');
     }
 
+
 }

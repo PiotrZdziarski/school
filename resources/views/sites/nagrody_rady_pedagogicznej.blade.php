@@ -26,10 +26,10 @@
                                 <div class="col-lg-12 my-1">
                                     <h3 class="mb-2">Nagrody Rady Pedagogicznej</h3>
                                     <ul class="fa-ul paddingTop-5">
-                                        <li><a href="{{url('/')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego filozofa</a></li>
-                                        <li><a href="{{url('/')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego przyrodnika</a></li>
-                                        <li><a href="{{url('/')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego filologa</a></li>
-                                        <li><a href="{{url('/')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego geografa</a></li>
+                                        <li><a href="{{url('/najlepszy_filozof')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego filozofa</a></li>
+                                        <li><a href="{{url('/najlepszy_przyrodnik')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego przyrodnika</a></li>
+                                        <li><a href="{{url('/najlepszy_filolog')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego filologa</a></li>
+                                        <li><a href="{{url('/najlepszy_geograf')}}"><span class="fa-li"><i class="ti-angle-right  colordodgerblue"></i></span>Nagroda dla najlepszego geografa</a></li>
                                     </ul>
                                 </div>
 

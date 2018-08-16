@@ -25,3 +25,7 @@ $router->get('/nagroda_prof_eugeniusza_wachowskiego', ['as' => 'nagroda_prof_eug
 $router->get('/nagroda_jozefa_chelmonskiego', ['as' => 'nagroda_jozefa_chelmonskiego', 'uses' => 'MainController@nagroda_jozefa_chelmonskiego']);
 $router->get('/nagroda_boleslawy_lament', ['as' => 'nagroda_boleslawy_lament', 'uses' => 'MainController@nagroda_boleslawy_lament']);
 $router->get('/nagrody_rady_pedagogicznej', ['as' => 'nagrody_rady_pedagogicznej', 'uses' => 'nagrody_rady_pedagogicznej@nagrody_rady_pedagogicznej']);
+$router->get('/najlepszy_filozof', ['as' => 'najlepszy_filozof', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_filozof']);
+$router->get('/najlepszy_przyrodnik', ['as' => 'najlepszy_przyrodnik', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_przyrodnik']);
+$router->get('/najlepszy_filolog', ['as' => 'najlepszy_filolog', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_filolog']);
+$router->get('/najlepszy_geograf', ['as' => 'najlepszy_geograf', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_geograf']);
