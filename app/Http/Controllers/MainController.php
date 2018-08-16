@@ -74,5 +74,10 @@ class MainController extends Controller
         return view('sites.nagroda_boleslawy_lament');
     }
 
+    public function rada_pedagogiczna()
+    {
+        return view('sites.rada_pedagogiczna');
+    }
+
 
 }
