@@ -79,5 +79,15 @@ class MainController extends Controller
         return view('sites.rada_pedagogiczna');
     }
 
+    public function samorzad_szkolny()
+    {
+        return view('sites.samorzad_szkolny');
+    }
+
+    public function statut_szkoly()
+    {
+        return view('sites.statut_szkoly');
+    }
+
 
 }

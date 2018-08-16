@@ -30,3 +30,5 @@ $router->get('/najlepszy_przyrodnik', ['as' => 'najlepszy_przyrodnik', 'uses' =>
 $router->get('/najlepszy_filolog', ['as' => 'najlepszy_filolog', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_filolog']);
 $router->get('/najlepszy_geograf', ['as' => 'najlepszy_geograf', 'uses' => 'nagrody_rady_pedagogicznej@najlepszy_geograf']);
 $router->get('/rada_pedagogiczna', ['as' => 'rada_pedagogiczna', 'uses' => 'MainController@rada_pedagogiczna']);
+$router->get('/samorzad_szkolny', ['as' => 'samorzad_szkolny', 'uses' => 'MainController@samorzad_szkolny']);
+$router->get('/statut_szkoly', ['as' => 'statut_szkoly', 'uses' => 'MainController@statut_szkoly']);

@@ -56,24 +56,42 @@
                                 <h4 class="my-3 paddingTop-40">
                                     "Żurawie"
                                 </h4>
-                                <img src="{{url('assets/img/subpages/zurawie.jpg')}}">
+                                <div class="hover:parent no4-3">
+                                    <img class="w-100 transition-0_3 hover:zoomin" src="{{url('assets/img/subpages/zurawie.jpg')}}" alt="">
+                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                                        <a href="{{url('assets/img/subpages/zurawie.jpg')}}" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                                    </div>
+                                </div>
 
                                 <h4 class="my-3 paddingTop-40">
                                     "Babie lato"
                                 </h4>
-                                <img src="{{url('assets/img/subpages/babielato.jpg')}}">
+                                <div class="hover:parent no4-3">
+                                    <img class="w-100 transition-0_3hover:zoomin" src="{{url('assets/img/subpages/babielato.jpg')}}" alt="">
+                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                                        <a href="{{url('assets/img/subpages/babielato.jpg')}}" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                                    </div>
+                                </div>
 
                                 <h4 class="my-3 paddingTop-40">
                                     "Noc na Ukranie zimą"
                                 </h4>
-                                <div style="display: flex; align-items: center; justify-content: center; width: 100%;">
-                                    <img src="{{url('assets/img/subpages/nocukrainanaziemie.jpg')}}">
+                                <div class="hover:parent no4-3">
+                                    <img class="w-100 transition-0_3 hover:zoomin" src="{{url('assets/img/subpages/nocukrainanaziemie.jpg')}}" alt="">
+                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                                        <a href="{{url('assets/img/subpages/nocukrainanaziemie.jpg')}}" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                                    </div>
                                 </div>
 
                                 <h4 class="my-3 paddingTop-40">
                                     "Czwórka"
                                 </h4>
-                                <img src="{{url('assets/img/subpages/czworka.jpg')}}">
+                                <div class="hover:parent no4-3">
+                                    <img class="w-100 transition-0_3 hover:zoomin" src="{{url('assets/img/subpages/czworka.jpg')}}" alt="">
+                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                                        <a href="{{url('assets/img/subpages/czworka.jpg')}}" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                                    </div>
+                                </div>
                             </section>
 
 

@@ -61,5 +61,8 @@
     margin-top: 27px !important;
 }
 .colordodgerblue{color:dodgerblue;}
+.no4-3{position:relative;overflow:hidden; width: 100%; padding-top: 0!important;}
+.statutbtn{border-bottom: 1px solid #72727a; cursor:pointer; font-size: 20px; padding-bottom: 5px; color: #444444;}
+.statutbtn:hover{border-bottom: 1px solid #b4b4bc; color: #898989;}
 
 
