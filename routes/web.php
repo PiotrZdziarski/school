@@ -11,8 +11,13 @@
 |
 */
 
+//HOME
 $router->get('/', ['as' => 'home', 'uses' => 'HomeController@home']);
+
+//NAV AKTUALNOSCI
 $router->get('/aktualnosci', ['as' => 'aktualnosci', 'uses' => 'MainController@aktualnosci']);
+
+//NAV - SZKOLA
 $router->get('/patron', ['as' => 'patron', 'uses' => 'MainController@patron']);
 $router->get('/dyrektorzy', ['as' => 'dyrektorzy', 'uses' => 'MainController@dyrektorzy']);
 $router->get('/w_rankingach', ['as' => 'w_rankingach', 'uses' => 'MainController@w_rankingach']);
@@ -33,6 +38,16 @@ $router->get('/rada_pedagogiczna', ['as' => 'rada_pedagogiczna', 'uses' => 'Main
 $router->get('/samorzad_szkolny', ['as' => 'samorzad_szkolny', 'uses' => 'MainController@samorzad_szkolny']);
 $router->get('/statut_szkoly', ['as' => 'statut_szkoly', 'uses' => 'MainController@statut_szkoly']);
 $router->get('/misja_szkoly', ['as' => 'misja_szkoly', 'uses' => 'MainController@misja_szkoly']);
+
+//KOLO WYCHOWANKOW
 $router->get('/kolo_wychowankow', ['as' => 'kolo_wychowankow', 'uses' => 'MainController@kolo_wychowankow']);
 $router->get('/kolo_wychowankow_slawni_absolwenci', ['as' => 'kolo_wychowankow_slawni_absolwenci', 'uses' => 'MainController@kolo_wychowankow_slawni_absolwenci']);
 $router->get('/kolo_wychowankow_historia', ['as' => 'kolo_wychowankow_historia', 'uses' => 'MainController@kolo_wychowankow_historia']);
+
+//NAV - INFORMACJE ////////////////////////////////////
+//BIBLIOTEKA
+$router->get('/biblioteka_o_miejscu', ['as' => 'biblioteka_o_miejscu', 'uses' => 'InformationController@biblioteka_o_miejscu']);
+$router->get('/biblioteka_godziny_otwarcia', ['as' => 'biblioteka_godziny_otwarcia', 'uses' => 'InformationController@biblioteka_godziny_otwarcia']);
+$router->get('/biblioteka_regulamin', ['as' => 'biblioteka_regulamin', 'uses' => 'InformationController@biblioteka_regulamin']);
+$router->get('/biblioteka_lektury_obowiazkowe', ['as' => 'biblioteka_lektury_obowiazkowe', 'uses' => 'InformationController@biblioteka_lektury_obowiazkowe']);
+$router->get('/biblioteka_gazety_i_czasopisma', ['as' => 'biblioteka_gazety_i_czasopisma', 'uses' => 'InformationController@biblioteka_gazety_i_czasopisma']);
