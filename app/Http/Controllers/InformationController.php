@@ -28,4 +28,24 @@ class InformationController extends Controller
     {
         return view('sites.information.biblioteka_gazety_i_czasopisma');
     }
+
+    public function biblioteka_filmoteka()
+    {
+        return view('sites.information.biblioteka_filmoteka');
+    }
+
+    public function biblioteka_nowosci()
+    {
+        return view('sites.information.biblioteka_nowosci');
+    }
+
+    public function biblioteka_online()
+    {
+        return view('sites.information.biblioteka_online');
+    }
+
+    public function biblioteka_w_lowiczu()
+    {
+        return view('sites.information.biblioteka_w_lowiczu');
+    }
 }

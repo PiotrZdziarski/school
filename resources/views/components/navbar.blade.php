@@ -92,11 +92,11 @@
                                         </li>
                                         <li><a class="nav-link__list" href="{{url('/biblioteka_gazety_i_czasopisma')}}">Czasompisma w
                                                 bibliotece</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Fimoteka</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Nowości w bibliotece
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_filmoteka')}}">Fimoteka</a></li>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_nowosci')}}">Nowości w bibliotece
                                                 szkolnej</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Biblioteki On-Line</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Biblioteki w Łowiczu</a>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_online')}}">Biblioteki On-Line</a></li>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_w_lowiczu')}}">Biblioteki w Łowiczu</a>
                                         </li>
                                         <li><a class="nav-link__list" href="page-login.html">Jak tworzyć
                                                 bibliografię?</a></li>
