@@ -13,7 +13,7 @@
                 <li class="breadcrumb-item"><a href="{{url('/')}}">Strona główna</a></li>
                 <li class="breadcrumb-item"><span class="opacity-08">Informacje</span></li>
                 <li class="breadcrumb-item"><a href="{{url('/biblioteka_o_miejscu')}}">Biblioteka</a></li>
-                <li class="breadcrumb-item">Biblioteka - Lektury obowiązkowe</li>
+                <li class="breadcrumb-item">Lektury obowiązkowe</li>
             </ol>
         </div>
     </div>

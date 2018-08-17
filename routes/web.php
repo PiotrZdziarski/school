@@ -51,3 +51,7 @@ $router->get('/biblioteka_godziny_otwarcia', ['as' => 'biblioteka_godziny_otwarc
 $router->get('/biblioteka_regulamin', ['as' => 'biblioteka_regulamin', 'uses' => 'InformationController@biblioteka_regulamin']);
 $router->get('/biblioteka_lektury_obowiazkowe', ['as' => 'biblioteka_lektury_obowiazkowe', 'uses' => 'InformationController@biblioteka_lektury_obowiazkowe']);
 $router->get('/biblioteka_gazety_i_czasopisma', ['as' => 'biblioteka_gazety_i_czasopisma', 'uses' => 'InformationController@biblioteka_gazety_i_czasopisma']);
+$router->get('/biblioteka_filmoteka', ['as' => 'biblioteka_filmoteka', 'uses' => 'InformationController@biblioteka_filmoteka']);
+$router->get('/biblioteka_nowosci', ['as' => 'biblioteka_nowosci', 'uses' => 'InformationController@biblioteka_nowosci']);
+$router->get('/biblioteka_online', ['as' => 'biblioteka_online', 'uses' => 'InformationController@biblioteka_online']);
+$router->get('/biblioteka_w_lowiczu', ['as' => 'biblioteka_w_lowiczu', 'uses' => 'InformationController@biblioteka_w_lowiczu']);
