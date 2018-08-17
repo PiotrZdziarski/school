@@ -89,5 +89,25 @@ class MainController extends Controller
         return view('sites.statut_szkoly');
     }
 
+    public function misja_szkoly()
+    {
+        return view('sites.misja_szkoly');
+    }
+
+    public function kolo_wychowankow()
+    {
+        return view('sites.kolo_wychowankow');
+    }
+
+    public function kolo_wychowankow_slawni_absolwenci()
+    {
+        return view('sites.kolo_wychowankow_slawni_absolwenci');
+    }
+
+    public function kolo_wychowankow_historia()
+    {
+        return view('sites.kolo_wychowankow_historia');
+    }
+
 
 }
