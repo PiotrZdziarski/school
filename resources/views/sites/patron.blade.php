@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <section class="padding-y-40 bg-light">
+    <section class="padding-y-20 bg-light">
         <div class="container">
             <div class="row">
 

@@ -22,7 +22,7 @@
 
 
     <!--Google fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500;">
 
 
     <!-- Icon fonts-->

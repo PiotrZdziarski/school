@@ -32,3 +32,7 @@ $router->get('/najlepszy_geograf', ['as' => 'najlepszy_geograf', 'uses' => 'nagr
 $router->get('/rada_pedagogiczna', ['as' => 'rada_pedagogiczna', 'uses' => 'MainController@rada_pedagogiczna']);
 $router->get('/samorzad_szkolny', ['as' => 'samorzad_szkolny', 'uses' => 'MainController@samorzad_szkolny']);
 $router->get('/statut_szkoly', ['as' => 'statut_szkoly', 'uses' => 'MainController@statut_szkoly']);
+$router->get('/misja_szkoly', ['as' => 'misja_szkoly', 'uses' => 'MainController@misja_szkoly']);
+$router->get('/kolo_wychowankow', ['as' => 'kolo_wychowankow', 'uses' => 'MainController@kolo_wychowankow']);
+$router->get('/kolo_wychowankow_slawni_absolwenci', ['as' => 'kolo_wychowankow_slawni_absolwenci', 'uses' => 'MainController@kolo_wychowankow_slawni_absolwenci']);
+$router->get('/kolo_wychowankow_historia', ['as' => 'kolo_wychowankow_historia', 'uses' => 'MainController@kolo_wychowankow_historia']);
