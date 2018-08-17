@@ -85,12 +85,12 @@
                                     Biblioteka </a>
                                 <div class="dropdown-menu">
                                     <ul class="list-unstyled">
-                                        <li><a class="nav-link__list" href="page-login.html">O miejscu</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Godziny otwarcia</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Regulamin</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Lektury Obowiązkowe</a>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_o_miejscu')}}">O miejscu</a></li>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_godziny_otwarcia')}}">Godziny otwarcia</a></li>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_regulamin')}}">Regulamin</a></li>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_lektury_obowiazkowe')}}">Lektury Obowiązkowe</a>
                                         </li>
-                                        <li><a class="nav-link__list" href="page-login.html">Czasompisma w
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_gazety_i_czasopisma')}}">Czasompisma w
                                                 bibliotece</a></li>
                                         <li><a class="nav-link__list" href="page-login.html">Fimoteka</a></li>
                                         <li><a class="nav-link__list" href="page-login.html">Nowości w bibliotece
