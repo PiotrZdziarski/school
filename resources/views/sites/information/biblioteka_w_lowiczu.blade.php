@@ -32,7 +32,7 @@
                                             <h2>Biblioteka - Biblioteki w <span
                                                         style="font-family: Arial,sans-serif;">Ł</span>owiczu</h2>
                                         </div>
-                                        <div class="col-lg-12 mx-auto paddingBottom-40 paddingTop-5">
+                                        <div class="col-lg-12 mx-auto paddingBottom-40 padding20lowwidth padding-30 paddingTop-5">
                                             Jeżeli z jakiegoś powodu nie udało ci się wypożyczyć książki w szkolnej
                                             bibliotece – nie rezygnuj! Zawsze możesz odwiedzić inną bibliotekę w
                                             naszym mieście. Pamiętaj, że czytanie wciąż jest kluczem do wiedzy.

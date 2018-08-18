@@ -55,3 +55,8 @@ $router->get('/biblioteka_filmoteka', ['as' => 'biblioteka_filmoteka', 'uses' =>
 $router->get('/biblioteka_nowosci', ['as' => 'biblioteka_nowosci', 'uses' => 'InformationController@biblioteka_nowosci']);
 $router->get('/biblioteka_online', ['as' => 'biblioteka_online', 'uses' => 'InformationController@biblioteka_online']);
 $router->get('/biblioteka_w_lowiczu', ['as' => 'biblioteka_w_lowiczu', 'uses' => 'InformationController@biblioteka_w_lowiczu']);
+$router->get('/biblioteka_bookcrossing', ['as' => 'biblioteka_bookcrossing', 'uses' => 'InformationController@biblioteka_bookcrossing']);
+$router->get('/biblioteka_informacja_medialna', ['as' => 'biblioteka_informacja_medialna', 'uses' => 'InformationController@biblioteka_informacja_medialna']);
+$router->get('/biblioteka_ciekawe_strony_internetowe', ['as' => 'biblioteka_ciekawe_strony_internetowe', 'uses' => 'InformationController@biblioteka_ciekawe_strony_internetowe']);
+$router->get('/swieta_dni_wolne', ['as' => 'swieta_dni_wolne', 'uses' => 'InformationController@swieta_dni_wolne']);
+$router->get('/zebrania_z_rodzicami', ['as' => 'zebrania_z_rodzicami', 'uses' => 'InformationController@zebrania_z_rodzicami']);

@@ -48,4 +48,29 @@ class InformationController extends Controller
     {
         return view('sites.information.biblioteka_w_lowiczu');
     }
+
+    public function biblioteka_bookcrossing()
+    {
+        return view('sites.information.biblioteka_bookcrossing');
+    }
+
+    public function biblioteka_informacja_medialna()
+    {
+        return view('sites.information.biblioteka_informacja_medialna');
+    }
+
+    public function biblioteka_ciekawe_strony_internetowe()
+    {
+        return view('sites.information.biblioteka_ciekawe_strony_internetowe');
+    }
+
+    public function swieta_dni_wolne()
+    {
+        return view('sites.information.swieta_dni_wolne');
+    }
+
+    public function zebrania_z_rodzicami()
+    {
+        return view('sites.information.zebrania_z_rodzicami');
+    }
 }
