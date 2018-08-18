@@ -98,18 +98,16 @@
                                         <li><a class="nav-link__list" href="{{url('/biblioteka_online')}}">Biblioteki On-Line</a></li>
                                         <li><a class="nav-link__list" href="{{url('/biblioteka_w_lowiczu')}}">Biblioteki w Łowiczu</a>
                                         </li>
-                                        <li><a class="nav-link__list" href="page-login.html">Jak tworzyć
-                                                bibliografię?</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Bookcrossing</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Regulamin centrum
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_bookcrossing')}}">Bookcrossing</a></li>
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_informacja_medialna')}}">Regulamin centrum
                                                 informacji medialnej</a></li>
-                                        <li><a class="nav-link__list" href="page-login.html">Ciekawe strony
+                                        <li><a class="nav-link__list" href="{{url('/biblioteka_ciekawe_strony_internetowe')}}">Ciekawe strony
                                                 internetowe</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="page-sp-all-courcess.html" class="nav-link__list">Święta i dni wolne</a></li>
-                            <li><a href="page-sp-all-courcess-list.html" class="nav-link__list">Zebrania z rodzicami</a>
+                            <li><a href="{{url('/swieta_dni_wolne')}}" class="nav-link__list">Święta i dni wolne</a></li>
+                            <li><a href="{{url('/zebrania_z_rodzicami')}}" class="nav-link__list">Zebrania z rodzicami</a>
                             </li>
                             <li><a href="page-sp-all-courcess-with-sidebar.html" class="nav-link__list">Wydawanie
                                     duplikatów</a></li>
