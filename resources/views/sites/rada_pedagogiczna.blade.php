@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Rada pedagogiczna
+@endsection
 @section('content')
 
 

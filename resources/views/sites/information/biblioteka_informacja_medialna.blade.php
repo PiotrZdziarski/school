@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Biblioteka - centrum informacji medialnej
+@endsection
 @section('content')
 
 

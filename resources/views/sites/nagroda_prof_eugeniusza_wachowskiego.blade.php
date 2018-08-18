@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda Eugeniusza Wachowskiego
+@endsection
 @section('content')
 
 

@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda dla najlepszego lingwisty
+@endsection
 @section('content')
 
 

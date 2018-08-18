@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda Heleny Jastrzębskiej
+@endsection
 @section('content')
 
 

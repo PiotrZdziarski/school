@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Ciekawe strony internetowe
+@endsection
 @section('content')
 
 

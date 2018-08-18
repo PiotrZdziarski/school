@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Lektury obowiązkowe
+@endsection
 @section('content')
 
 

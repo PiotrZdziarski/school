@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Koło Wychowanków - Sławni absolwenci
+@endsection
 @section('content')
 
 

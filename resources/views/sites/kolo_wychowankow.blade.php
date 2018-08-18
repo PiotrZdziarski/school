@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Koło Wychowanków
+@endsection
 @section('content')
 
 

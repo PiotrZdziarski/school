@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Gazety i czasopisma
+@endsection
 @section('content')
 
 

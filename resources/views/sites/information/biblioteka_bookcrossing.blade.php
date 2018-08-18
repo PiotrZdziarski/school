@@ -1,5 +1,10 @@
 @extends('layouts.app')
+
+@section('title')
+    Bookcrossing
+@endsection
 @section('content')
+
 
 
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"

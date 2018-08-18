@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Misja szkoły
+@endsection
 @section('content')
 
 
