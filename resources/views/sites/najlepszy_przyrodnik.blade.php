@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda dla najlepszego przyrodnika
+@endsection
 @section('content')
 
 

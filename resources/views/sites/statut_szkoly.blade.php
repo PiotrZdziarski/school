@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Statut Szkoły
+@endsection
 @section('content')
 
 

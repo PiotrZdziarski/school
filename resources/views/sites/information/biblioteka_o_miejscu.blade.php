@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Biblioteka - o miejscu
+@endsection
 @section('content')
 
 

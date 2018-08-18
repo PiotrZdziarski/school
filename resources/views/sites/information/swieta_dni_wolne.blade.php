@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Święta i dni wolne
+@endsection
 @section('content')
 
 

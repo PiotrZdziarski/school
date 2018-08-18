@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Biblioteka - regulamin
+@endsection
 @section('content')
 
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"

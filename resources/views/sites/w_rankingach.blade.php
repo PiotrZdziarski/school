@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    W rankingach
+@endsection
 @section('content')
 
 

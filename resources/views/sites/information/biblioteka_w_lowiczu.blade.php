@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Biblioteki w Łowiczu
+@endsection
 @section('content')
 
 

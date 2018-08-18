@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda dla najlepszego filozofa
+@endsection
 @section('content')
 
 

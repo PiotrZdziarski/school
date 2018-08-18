@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Biblioteki online
+@endsection
 @section('content')
 
 

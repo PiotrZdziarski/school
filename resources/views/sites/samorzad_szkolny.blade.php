@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Samorząd szkolny
+@endsection
 @section('content')
 
 

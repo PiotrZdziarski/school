@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda Bolesławy Lament
+@endsection
 @section('content')
 
 

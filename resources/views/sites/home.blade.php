@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    I LO im. Józefa Chełmońskiego w Łowiczu
+@endsection
 @section('content')
 
 
@@ -13,7 +16,8 @@
                         <div class="col-md-6 my-5">
                             <div class="position-relative">
                                 <img class="rounded w-100" src="assets/img/360x400/1.jpg" alt="">
-                                <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM" data-fancybox class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
+                                <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM" data-fancybox
+                                   class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
                                     <i class="ti-control-play text-primary"></i>
                                 </a>
                             </div>
@@ -24,7 +28,9 @@
                                 <span class="text-primary">Chełmonie</span>
                             </h2>
                             <p class="my-4">
-                                Nie wiem w sumie co tu napisać. <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium pharetra magna.</p>
+                                Nie wiem w sumie co tu napisać.
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium pharetra
+                                magna.</p>
                         </div>
                     </div>
                 </div>
@@ -41,24 +47,29 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:url(assets/img/960x560/1.jpg) no-repeat">
+                <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
+                     style="background:url(assets/img/960x560/1.jpg) no-repeat">
                     <div class="padding-x-lg-100 wow pulse">
                         <h2 class="text-white mb-4">
                             Rekrutacja na rok 2018/2019
                         </h2>
                         <p>
-                            Zajęcia odbywają się w dobrze wyposażonych, nowoczesnych pracowniach przedmiotowych i salach lekcyjnych. Uczniowie samodzielnie wykonują doświadczenia i symulacje, mają możliwość wykorzystywania tablic interaktywnych (multimedialnych)!
+                            Zajęcia odbywają się w dobrze wyposażonych, nowoczesnych pracowniach przedmiotowych i salach
+                            lekcyjnych. Uczniowie samodzielnie wykonują doświadczenia i symulacje, mają możliwość
+                            wykorzystywania tablic interaktywnych (multimedialnych)!
                         </p>
                         <a href="#" class="btn btn-white mt-4">Zobacz więcej</a>
                     </div>
                 </div>
-                <div class="col-md-6 bg-cover bg-center text-white padding-y-80" style="background:linear-gradient(rgba(9,151,244,0.85),rgba(80,154,244,0.85)),url(assets/img/960x560/3.jpg) no-repeat; !important;">
+                <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
+                     style="background:linear-gradient(rgba(9,151,244,0.85),rgba(80,154,244,0.85)),url(assets/img/960x560/3.jpg) no-repeat; !important;">
                     <div class="padding-x-lg-100 wow pulse">
                         <h2 class="text-white mb-4">
-                            Matury  2018
+                            Matury 2018
                         </h2>
                         <p>
-                            Przedstawiamy porównanie wyników egzaminów maturalnych w naszej szkole ze średnią egzaminów maturalnych dla liceów w Polsce. Zobacz jak wypadła nasza szkoła!
+                            Przedstawiamy porównanie wyników egzaminów maturalnych w naszej szkole ze średnią egzaminów
+                            maturalnych dla liceów w Polsce. Zobacz jak wypadła nasza szkoła!
                         </p>
                         <a href="#" class="btn btn-white mt-4" style="margin-top: 55px !important;">Zobacz więcej</a>
                     </div>
@@ -94,7 +105,8 @@
                             Best Student Spots in London
                         </a>
                         <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas ekist conse tetur adipi sicing elit, sed kdo.
+                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
+                            ekist conse tetur adipi sicing elit, sed kdo.
                         </p>
                         <a href="#" class="btn btn-outline-primary align-self-start mt-2">
                             Read More
@@ -111,7 +123,8 @@
                             Believe in Yourself! Have Faith!
                         </a>
                         <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas ekist conse tetur adipi sicing elit, sed kdo.
+                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
+                            ekist conse tetur adipi sicing elit, sed kdo.
                         </p>
                         <a href="#" class="btn btn-outline-primary align-self-start mt-2">
                             Read More
@@ -128,7 +141,8 @@
                             Bringing an Online Community Together
                         </a>
                         <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas ekist conse tetur adipi sicing elit, sed kdo.
+                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
+                            ekist conse tetur adipi sicing elit, sed kdo.
                         </p>
                         <a href="#" class="btn btn-outline-primary align-self-start mt-2">
                             Read More
@@ -153,13 +167,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9">
-                    <h2 class="display-lg-4 font-weight-bold text-primary wow fadeIn" data-wow-delay=".1s" style="color: #f3ae4d!important;">
+                    <h2 class="display-lg-4 font-weight-bold text-primary wow fadeIn" data-wow-delay=".1s"
+                        style="color: #f3ae4d!important;">
                         Józef Chełmoński
                     </h2>
                     <p class="lead wow fadeIn" data-wow-delay=".1s" style="color: #444444">
-                        Polski malarz, reprezentant realizmu. Jego malarstwo charakteryzowało się wielką ekspresją i temperamentem lecz odwzorowywał naturę taka jaka jest w rzecziwstości : surową, nie wyidealizowaną. Jako jeden z nielicznych potrafił ukazać na swych obrazach chrapanie koni, ich rozpędzone sylwetki, mokre od wilgoci drzewa tak realistycznie jak byłyby one tam naprawdę.
+                        Polski malarz, reprezentant realizmu. Jego malarstwo charakteryzowało się wielką ekspresją i
+                        temperamentem lecz odwzorowywał naturę taka jaka jest w rzecziwstości : surową, nie
+                        wyidealizowaną. Jako jeden z nielicznych potrafił ukazać na swych obrazach chrapanie koni, ich
+                        rozpędzone sylwetki, mokre od wilgoci drzewa tak realistycznie jak byłyby one tam naprawdę.
                     </p>
-                    <a href="{{url('/patron')}}" class="btn btn-primary btn-lg mt-3 wow fadeIn btnpatron" data-wow-delay=".1s">Zobacz więcej</a>
+                    <a href="{{url('/patron')}}" class="btn btn-primary btn-lg mt-3 wow fadeIn btnpatron"
+                       data-wow-delay=".1s">Zobacz więcej</a>
                 </div>
                 <div class="col-lg-3 wow fadeIn chelmonskidiv" data-wow-delay=".1s">
                     <img class="chelmonski" src="assets/img/school/chelmonski.jpg">

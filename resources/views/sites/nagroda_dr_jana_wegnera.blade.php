@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Nagroda Jana Wegnera
+@endsection
 @section('content')
 
 

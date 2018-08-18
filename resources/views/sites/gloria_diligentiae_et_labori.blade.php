@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Gloria Diligentiae et Labori
+@endsection
 @section('content')
 
 
