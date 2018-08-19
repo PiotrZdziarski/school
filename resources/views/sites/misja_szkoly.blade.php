@@ -25,7 +25,6 @@
             <div class="row">
 
                 <div class="col-lg-8 mt-4 nopaddinglowwidth">
-                    <div class="card shadow-v1">
                         <div class="card-body" style="padding: 0;">
                             <section class="border-bottom border-light" id="content">
                                 <div class="container">
@@ -33,7 +32,7 @@
                                         <div class="col-12 mb-1 text-center paddingTop-15">
                                             <h2>Misja szkoły</h2>
                                         </div>
-                                        <div class="col-lg-11 mx-auto paddingTop-10 paddingBottom-40">I Liceum
+                                        <div class="col-lg-12 padding20lowwidth padding-30 mx-auto paddingTop-10 paddingBottom-40">I Liceum
                                             Ogólnokształcące im. Józefa Chełmońskiego w Łowiczu jest Szkołą, która w
                                             pełni wykorzystuje potencjał intelektualny uczniów w procesie edukacyjnym.
                                             Przygotowuje uczniów do kontynuowania nauki na najlepszych uczelniach w
@@ -52,7 +51,6 @@
                             </section> <!-- END section-->
                             <!-- END tab-content-->
                         </div>
-                    </div>
                 </div>
 
                 @include('components.aktualnosci')

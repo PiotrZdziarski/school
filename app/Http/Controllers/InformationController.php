@@ -73,4 +73,24 @@ class InformationController extends Controller
     {
         return view('sites.information.zebrania_z_rodzicami');
     }
+
+    public function wydawanie_duplikatow()
+    {
+        return view('sites.information.wydawanie_duplikatow');
+    }
+
+    public function procent()
+    {
+        return view('sites.information.procent');
+    }
+
+    public function zajecia_dodatkowe()
+    {
+        return view('sites.information.zajecia_dodatkowe');
+    }
+
+    public function RODO()
+    {
+        return view('sites.information.RODO');
+    }
 }

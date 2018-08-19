@@ -18,14 +18,14 @@
         </div>
     </div>
 
-    <section class="bg-light">
+    <section>
         <div class="container">
             <div class="row">
 
                 <div class="col-lg-8 mt-4 nopaddinglowwidth">
-                    <div class="card shadow-v1">
+                    <div class="card shadow-v1" style="box-shadow: 0 10px 20px #eaeaea!important;">
                         <div class="card-body padding20lowwidth">
-                            <section id="content">
+                            <section>
                                 <div class="col-lg-12 my-1">
                                     <h3 class="mb-2">Nagrody Rady Pedagogicznej</h3>
                                     <ul class="fa-ul paddingTop-5">

@@ -24,8 +24,8 @@
 
                 <div class="col-lg-8 mt-4 nopaddinglowwidth">
                     <div class="card shadow-v1">
-                        <div class="card-body padding20lowwidth">
-                            <section id="content">
+                        <div class="card-body padding20lowwidth" style="box-shadow: 0 10px 20px #eaeaea!important;">
+                            <section>
                                 <h2 class="card-title">
                                     Patron
                                 </h2>
@@ -89,7 +89,7 @@
                                 <h4 class="my-3 paddingTop-40">
                                     "Czwórka"
                                 </h4>
-                                <div class="hover:parent no4-3">
+                                <div class="hover:parent no4-3" style="margin-bottom: 30px;">
                                     <img class="w-100 transition-0_3 hover:zoomin" src="{{url('assets/img/subpages/czworka.jpg')}}" alt="">
                                     <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
                                         <a href="{{url('assets/img/subpages/czworka.jpg')}}" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>

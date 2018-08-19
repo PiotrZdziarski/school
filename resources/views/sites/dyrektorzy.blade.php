@@ -24,8 +24,8 @@
 
                 <div class="col-lg-8 mt-4 nopaddinglowwidth">
                     <div class="card shadow-v1">
-                        <div class="card-body padding20lowwidth">
-                            <section id="content">
+                        <div class="card-body padding20lowwidth" style="box-shadow: 0 10px 20px #eaeaea!important;">
+                            <section>
                                 <h2 class="card-title">
                                     Dyrektorzy
                                 </h2>

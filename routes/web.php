@@ -60,3 +60,7 @@ $router->get('/biblioteka_informacja_medialna', ['as' => 'biblioteka_informacja_
 $router->get('/biblioteka_ciekawe_strony_internetowe', ['as' => 'biblioteka_ciekawe_strony_internetowe', 'uses' => 'InformationController@biblioteka_ciekawe_strony_internetowe']);
 $router->get('/swieta_dni_wolne', ['as' => 'swieta_dni_wolne', 'uses' => 'InformationController@swieta_dni_wolne']);
 $router->get('/zebrania_z_rodzicami', ['as' => 'zebrania_z_rodzicami', 'uses' => 'InformationController@zebrania_z_rodzicami']);
+$router->get('/wydawanie_duplikatow', ['as' => 'wydawanie_duplikatow', 'uses' => 'InformationController@wydawanie_duplikatow']);
+$router->get('/procent', ['as' => 'procent', 'uses' => 'InformationController@procent']);
+$router->get('/zajecia_dodatkowe', ['as' => 'zajecia_dodatkowe', 'uses' => 'InformationController@zajecia_dodatkowe']);
+$router->get('/RODO', ['as' => 'RODO', 'uses' => 'InformationController@RODO']);
