@@ -130,9 +130,9 @@
                                         Stypendyści </a>
                                     <div class="dropdown-menu">
                                         <ul class="list-unstyled">
-                                            <li><a class="nav-link__list" href="page-events.html"> Prezesa Rady
+                                            <li><a class="nav-link__list" href="{{url('/stypendysci_prezesa_rady_ministrow')}}"> Prezesa Rady
                                                     Ministrów </a></li>
-                                            <li><a class="nav-link__list" href="page-event-details.html"> Zarządy
+                                            <li><a class="nav-link__list" href={{url('/stypendysci_zarzadu_starostwa_powiatowego')}}> Zarządy
                                                     Starostwa Powiatowego w Łowiczu</a></li>
                                         </ul>
                                     </div>

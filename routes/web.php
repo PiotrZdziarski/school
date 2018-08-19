@@ -64,3 +64,5 @@ $router->get('/wydawanie_duplikatow', ['as' => 'wydawanie_duplikatow', 'uses' =>
 $router->get('/procent', ['as' => 'procent', 'uses' => 'InformationController@procent']);
 $router->get('/zajecia_dodatkowe', ['as' => 'zajecia_dodatkowe', 'uses' => 'InformationController@zajecia_dodatkowe']);
 $router->get('/RODO', ['as' => 'RODO', 'uses' => 'InformationController@RODO']);
+$router->get('/stypendysci_prezesa_rady_ministrow', ['as' => 'stypendysci_prezesa_rady_ministrow', 'uses' => 'AchievementsController@stypendysci_prezesa_rady_ministrow']);
+$router->get('/stypendysci_zarzadu_starostwa_powiatowego', ['as' => 'stypendysci_zarzadu_starostwa_powiatowego', 'uses' => 'AchievementsController@stypendysci_zarzadu_starostwa_powiatowego']);
