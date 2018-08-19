@@ -156,14 +156,14 @@
                                             <li><a class="nav-link__list" href="{{url('/osiagniecia_informatyka')}}"> Informatyka</a></li>
                                             <li><a class="nav-link__list" href="{{url('/osiagniecia_j_angielski')}}"> Język angielski</a>
                                             </li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Język francuski</a>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_j_francuski')}}"> Język francuski</a>
                                             </li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Język niemiecki</a>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_j_niemiecki')}}"> Język niemiecki</a>
                                             </li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Język polski</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Język rosyjski</a>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_j_polski')}}"> Język polski</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_j_rosyjski')}}"> Język rosyjski</a>
                                             </li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Matematyka</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_matematyka')}}"> Matematyka</a></li>
                                             <li><a class="nav-link__list" href="page-events.html"> Przedsiębiorczość</a>
                                             </li>
                                             <li><a class="nav-link__list" href="page-events.html"> Religia</a></li>

@@ -76,3 +76,8 @@ $router->get('/osiagniecia_geografia', ['as' => 'osiagniecia_geografia', 'uses' 
 $router->get('/osiagniecia_historia', ['as' => 'osiagniecia_historia', 'uses' => 'AchievementsController@osiagniecia_historia']);
 $router->get('/osiagniecia_informatyka', ['as' => 'osiagniecia_informatyka', 'uses' => 'AchievementsController@osiagniecia_informatyka']);
 $router->get('/osiagniecia_j_angielski', ['as' => 'osiagniecia_j_angielski', 'uses' => 'AchievementsController@osiagniecia_j_angielski']);
+$router->get('/osiagniecia_j_francuski', ['as' => 'osiagniecia_j_francuski', 'uses' => 'AchievementsController@osiagniecia_j_francuski']);
+$router->get('/osiagniecia_j_niemiecki', ['as' => 'osiagniecia_j_niemiecki', 'uses' => 'AchievementsController@osiagniecia_j_niemiecki']);
+$router->get('/osiagniecia_j_polski', ['as' => 'osiagniecia_j_polski', 'uses' => 'AchievementsController@osiagniecia_j_polski']);
+$router->get('/osiagniecia_j_rosyjski', ['as' => 'osiagniecia_j_rosyjski', 'uses' => 'AchievementsController@osiagniecia_j_rosyjski']);
+$router->get('/osiagniecia_matematyka', ['as' => 'osiagniecia_matematyka', 'uses' => 'AchievementsController@osiagniecia_matematyka']);
