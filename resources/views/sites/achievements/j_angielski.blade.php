@@ -52,7 +52,7 @@
                                             <p>Aleksandra Jakubik – 3e – udział w finale, tytuł półfinalistki</p>
 
 
-                                            <h4 class="paddingTop-60 text-center paddingBottom-30">XIII Powiatowy Konkurs Języka Angielskiego</h4>
+                                            <h6 class="paddingBottom-10 paddingTop-40">XIII Powiatowy Konkurs Języka Angielskiego</h6>
                                             <p>Beniamin Maliński – 3a – I miejsce</p>
                                             <p>Katarzyna Znajdek – 3d – II miejsce</p>
                                             <p>Patrycja Sadowska – 3b –  IV miejsce</p>
@@ -72,15 +72,15 @@
                                             <p>Michalina Górajek – 2e – laureatka</p>
 
 
-                                            <h4 class="paddingTop-60 text-center paddingBottom-30">XI Powiatowy Konkurs Języka Angielskiego</h4>
+                                            <h6 class="paddingBottom-10 paddingTop-40">XI Powiatowy Konkurs Języka Angielskiego</h6>
                                             <p>Michalina Górajek – 2e – II miejsce</p>
 
 
-                                            <h4 class="paddingTop-60 text-center paddingBottom-30">I Międzyszkolny Konkurs Wiedzy o Wielkiej Brytanii</h4>
+                                            <h6 class="paddingBottom-10 paddingTop-40">I Międzyszkolny Konkurs Wiedzy o Wielkiej Brytanii</h6>
                                             <p>Piotr Pietrzak – 3b – I miejsce</p>
 
 
-                                            <h4 class="paddingTop-60 text-center paddingBottom-30">V Festiwal Piosenki Angielskiej Przedbórz 2014</h4>
+                                            <h6 class="paddingBottom-10 paddingTop-40">V Festiwal Piosenki Angielskiej Przedbórz 2014</h6>
                                             <p>I miejsce w kategorii zespół zajął Szlachetny Zespół Artystyczny</p>
                                             <p>w składzie: Katarzyna Kubica – 2d, Jakub Krysicki – 2b,</p>
                                             <p>Krzysztof Zając – 2b, Aleksandra Gala – 2c,</p>
@@ -95,7 +95,7 @@
                                             <p>Michał Kostrzewa – 3a – laureat – II miejsce</p>
 
 
-                                            <h4 class="paddingTop-60 text-center paddingBottom-30">IX Powiatowy Konkurs Języka Angielskiego</h4>
+                                            <h6 class="paddingBottom-10 paddingTop-40">IX Powiatowy Konkurs Języka Angielskiego</h6>
                                             <p>Michał Kostrzewa – 3a – II miejsce</p>
                                             <p>Gabriela Jeż – 3d – IV miejsce</p>
 
