@@ -71,3 +71,8 @@ $router->get('/osiagniecia_biologiczne', ['as' => 'osiagniecia_biologiczne', 'us
 $router->get('/osiagniecia_chemiczne', ['as' => 'osiagniecia_chemiczne', 'uses' => 'AchievementsController@osiagniecia_chemiczne']);
 $router->get('/osiagniecia_edb', ['as' => 'osiagniecia_edb', 'uses' => 'AchievementsController@osiagniecia_edb']);
 $router->get('/osiagniecia_filozofia', ['as' => 'osiagniecia_filozofia', 'uses' => 'AchievementsController@osiagniecia_filozofia']);
+$router->get('/osiagniecia_fizyka_astronomia', ['as' => 'osiagniecia_fizyka_astronomia', 'uses' => 'AchievementsController@osiagniecia_fizyka_astronomia']);
+$router->get('/osiagniecia_geografia', ['as' => 'osiagniecia_geografia', 'uses' => 'AchievementsController@osiagniecia_geografia']);
+$router->get('/osiagniecia_historia', ['as' => 'osiagniecia_historia', 'uses' => 'AchievementsController@osiagniecia_historia']);
+$router->get('/osiagniecia_informatyka', ['as' => 'osiagniecia_informatyka', 'uses' => 'AchievementsController@osiagniecia_informatyka']);
+$router->get('/osiagniecia_j_angielski', ['as' => 'osiagniecia_j_angielski', 'uses' => 'AchievementsController@osiagniecia_j_angielski']);

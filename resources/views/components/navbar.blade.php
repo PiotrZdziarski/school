@@ -149,12 +149,12 @@
                                             <li><a class="nav-link__list" href="{{url('/osiagniecia_edb')}}"> Edukacja dla
                                                     bezpieczeństwa</a></li>
                                             <li><a class="nav-link__list" href="{{url('/osiagniecia_filozofia')}}"> Filozofia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Fizyka i
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_fizyka_astronomia')}}"> Fizyka i
                                                     astronomia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Geografia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Historia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Informatyka</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Język angielski</a>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_geografia')}}"> Geografia</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_historia')}}"> Historia</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_informatyka')}}"> Informatyka</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_j_angielski')}}"> Język angielski</a>
                                             </li>
                                             <li><a class="nav-link__list" href="page-events.html"> Język francuski</a>
                                             </li>
