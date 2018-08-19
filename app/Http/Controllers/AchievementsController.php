@@ -71,4 +71,29 @@ class AchievementsController extends Controller
     {
         return view('sites.achievements.j_angielski');
     }
+
+    public function osiagniecia_j_francuski()
+    {
+        return view('sites.achievements.j_francuski');
+    }
+
+    public function osiagniecia_j_niemiecki()
+    {
+        return view('sites.achievements.j_niemiecki');
+    }
+
+    public function osiagniecia_j_polski()
+    {
+        return view('sites.achievements.j_polski');
+    }
+
+    public function osiagniecia_j_rosyjski()
+    {
+        return view('sites.achievements.j_rosyjski');
+    }
+
+    public function osiagniecia_matematyka()
+    {
+        return view('sites.achievements.matematyka');
+    }
 }
