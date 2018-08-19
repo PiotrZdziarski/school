@@ -143,12 +143,12 @@
                                         Osiągnięcia w olimpiadach i konkursach </a>
                                     <div class="dropdown-menu">
                                         <ul class="list-unstyled">
-                                            <li><a class="nav-link__list" href="page-events.html"> Artystyczne</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Biologia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Chemia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Edukacja dla
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_artystyczne')}}"> Artystyczne</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_biologiczne')}}"> Biologia</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_chemiczne')}}"> Chemia</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_edb')}}"> Edukacja dla
                                                     bezpieczeństwa</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Filozofia</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_filozofia')}}"> Filozofia</a></li>
                                             <li><a class="nav-link__list" href="page-events.html"> Fizyka i
                                                     astronomia</a></li>
                                             <li><a class="nav-link__list" href="page-events.html"> Geografia</a></li>

@@ -20,4 +20,29 @@ class AchievementsController extends Controller
     {
         return view('sites.achievements.stypendysci_zarzadu_starostwa_powiatowego');
     }
+
+    public function osiagniecia_artystyczne()
+    {
+        return view('sites.achievements.artystyczne');
+    }
+
+    public function osiagniecia_biologiczne()
+    {
+        return view('sites.achievements.biologiczne');
+    }
+
+    public function osiagniecia_chemiczne()
+    {
+        return view('sites.achievements.chemiczne');
+    }
+
+    public function osiagniecia_edb()
+    {
+        return view('sites.achievements.edukacja_dla_bezpieczenstwa');
+    }
+
+    public function osiagniecia_filozofia()
+    {
+        return view('sites.achievements.filozofia');
+    }
 }

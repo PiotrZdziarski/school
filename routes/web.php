@@ -66,3 +66,8 @@ $router->get('/zajecia_dodatkowe', ['as' => 'zajecia_dodatkowe', 'uses' => 'Info
 $router->get('/RODO', ['as' => 'RODO', 'uses' => 'InformationController@RODO']);
 $router->get('/stypendysci_prezesa_rady_ministrow', ['as' => 'stypendysci_prezesa_rady_ministrow', 'uses' => 'AchievementsController@stypendysci_prezesa_rady_ministrow']);
 $router->get('/stypendysci_zarzadu_starostwa_powiatowego', ['as' => 'stypendysci_zarzadu_starostwa_powiatowego', 'uses' => 'AchievementsController@stypendysci_zarzadu_starostwa_powiatowego']);
+$router->get('/osiagniecia_artystyczne', ['as' => 'osiagniecia_artystyczne', 'uses' => 'AchievementsController@osiagniecia_artystyczne']);
+$router->get('/osiagniecia_biologiczne', ['as' => 'osiagniecia_biologiczne', 'uses' => 'AchievementsController@osiagniecia_biologiczne']);
+$router->get('/osiagniecia_chemiczne', ['as' => 'osiagniecia_chemiczne', 'uses' => 'AchievementsController@osiagniecia_chemiczne']);
+$router->get('/osiagniecia_edb', ['as' => 'osiagniecia_edb', 'uses' => 'AchievementsController@osiagniecia_edb']);
+$router->get('/osiagniecia_filozofia', ['as' => 'osiagniecia_filozofia', 'uses' => 'AchievementsController@osiagniecia_filozofia']);
