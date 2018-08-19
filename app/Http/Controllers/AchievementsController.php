@@ -45,4 +45,30 @@ class AchievementsController extends Controller
     {
         return view('sites.achievements.filozofia');
     }
+
+    public function osiagniecia_fizyka_astronomia()
+    {
+        return view('sites.achievements.fizyka_astronomia');
+    }
+
+    public function osiagniecia_geografia()
+    {
+        return view('sites.achievements.geografia');
+    }
+
+    public function osiagniecia_historia()
+    {
+        return view('sites.achievements.historia');
+    }
+
+    public function osiagniecia_informatyka()
+    {
+        return view('sites.achievements.informatyka');
+    }
+
+
+    public function osiagniecia_j_angielski()
+    {
+        return view('sites.achievements.j_angielski');
+    }
 }
