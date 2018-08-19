@@ -30,7 +30,7 @@
                                         <div class="col-12 mb-1 text-center paddingTop-15 paddingBottom-20">
                                             <h2>Koło Wychowanków</h2>
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 padding-25">
                                             <p>
                                             Szkoła to nie tylko uczniowie, nauczyciele i personel administracyjno – obsługowy, ale również rodzice i wychowankowie, z którymi mamy kontakt niemal codzienny. Bez rodziców niewiele można byłoby zrobić. Oni to wielokrotnie, społecznie pomagają szkole.
                                             </p><br>

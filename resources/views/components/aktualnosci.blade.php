@@ -1,5 +1,5 @@
-<div class="col-lg-4 mt-5 mt-md-0">
-    <div class="card shadow-v1 z-index-5 aktualnosci_sidebar">
+<div class="col-lg-4 mt-5 mt-md-0" >
+    <div class="card shadow-v1 z-index-5 aktualnosci_sidebar" style="box-shadow: 0 10px 20px #eaeaea; margin-bottom: 20px;">
         <div class="card-header bg-primary text-white border-bottom-0" style="background-color: #60c3ff!important;">
             <span class="lead font-semiBold text-uppercase">
               Aktualności

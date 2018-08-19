@@ -109,13 +109,13 @@
                             <li><a href="{{url('/swieta_dni_wolne')}}" class="nav-link__list">Święta i dni wolne</a></li>
                             <li><a href="{{url('/zebrania_z_rodzicami')}}" class="nav-link__list">Zebrania z rodzicami</a>
                             </li>
-                            <li><a href="page-sp-all-courcess-with-sidebar.html" class="nav-link__list">Wydawanie
+                            <li><a href="{{url('/wydawanie_duplikatow')}}" class="nav-link__list">Wydawanie
                                     duplikatów</a></li>
-                            <li><a href="page-sp-all-courcess-list-with-sidebar.html" class="nav-link__list">1%</a></li>
-                            <li><a href="page-sp-course-details.html" class="nav-link__list">Facebook</a></li>
-                            <li><a href="page-sp-course-details.html" class="nav-link__list">Zajęcia dodatkowe</a></li>
-                            <li><a href="page-sp-course-details.html" class="nav-link__list">RODO</a></li>
-                            <li><a href="page-sp-course-details.html" class="nav-link__list">Dziennik elektroniczny</a>
+                            <li><a href="{{url('/procent')}}" class="nav-link__list">1%</a></li>
+                            <li><a href="https://www.facebook.com/lo1lowicz/" target="_blank" class="nav-link__list">Facebook</a></li>
+                            <li><a href="{{url('/zajecia_dodatkowe')}}" class="nav-link__list">Zajęcia dodatkowe</a></li>
+                            <li><a href="{{url('/RODO')}}" class="nav-link__list">RODO</a></li>
+                            <li><a href="https://synergia.librus.pl/" target="_blank" class="nav-link__list">Dziennik elektroniczny</a>
                             </li>
                         </ul>
                     </li>

@@ -34,7 +34,7 @@
                                         <div class="col-12 mb-1 text-center paddingTop-15 paddingBottom-20">
                                             <h2>Koło Wychowanków - Historia od 1939 r.</h2>
                                         </div>
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 padding-25">
                                             <p>
                                                 Przedstawione organizacje byłych wychowanków i wychowanek szkół średnich
                                                 łowickich do roku 1939 dobitnie świadczyły o istnieniu wśród nich żywej
