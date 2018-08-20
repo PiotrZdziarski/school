@@ -182,9 +182,12 @@
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Matura </a>
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
-                                <li><a class="nav-link__list" href="blog-single.html"> Matura 2016</a></li>
-                                <li><a class="nav-link__list" href="blog-single.html"> Matura 2017</a></li>
-                                <li><a class="nav-link__list" href="blog-single.html"> Matura 2018</a></li>
+                                <li><a class="nav-link__list" href="{{url('/matura2013')}}"> Matura 2013</a></li>
+                                <li><a class="nav-link__list" href="{{url('/matura2014')}}"> Matura 2014</a></li>
+                                <li><a class="nav-link__list" href="{{url('/matura2015')}}"> Matura 2015</a></li>
+                                <li><a class="nav-link__list" href="{{url('/matura2016')}}"> Matura 2016</a></li>
+                                <li><a class="nav-link__list" href="{{url('/matura2017')}}"> Matura 2017</a></li>
+                                <li><a class="nav-link__list" href="{{url('/matura2018')}}"> Matura 2018</a></li>
                             </ul>
                         </div>
                     </li>
@@ -193,7 +196,7 @@
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Rekrutacja </a>
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
-                                <li><a class="nav-link__list" href="shop.html"> Rekrutacja </a></li>
+                                <li><a class="nav-link__list" href="{{url('/rekrutacja')}}"> Rekrutacja </a></li>
                                 <li><a class="nav-link__list" href="shop.html"> Klasa IA </a></li>
                                 <li><a class="nav-link__list" href="shop.html"> Klasa IB </a></li>
                                 <li><a class="nav-link__list" href="shop.html"> Klasa IC </a></li>

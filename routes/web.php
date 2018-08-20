@@ -94,3 +94,15 @@ $router->get('/osiagniecia_religia', ['uses' => 'AchievementsController@osiagnie
 $router->get('/osiagniecia_sportowe', ['uses' => 'AchievementsController@osiagniecia_sportowe']);
 $router->get('/osiagniecia_wiedza_o_spoleczenstwie', ['uses' => 'AchievementsController@osiagniecia_wiedza_o_spoleczenstwie']);
 $router->get('/osiagniecia_inne', ['uses' => 'AchievementsController@osiagniecia_inne']);
+
+//NAV - MATURA ////////////////////////////////////
+$router->get('/matura2013', ['uses' => 'MaturaController@matura2013']);
+$router->get('/matura2014', ['uses' => 'MaturaController@matura2014']);
+$router->get('/matura2015', ['uses' => 'MaturaController@matura2015']);
+$router->get('/matura2016', ['uses' => 'MaturaController@matura2016']);
+$router->get('/matura2017', ['uses' => 'MaturaController@matura2017']);
+$router->get('/matura2018', ['uses' => 'MaturaController@matura2018']);
+
+
+//NAV - REKRUTACJA ////////////////////////////////////
+$router->get('/rekrutacja', ['uses' => 'RekrutacjaController@rekrutacja']);
