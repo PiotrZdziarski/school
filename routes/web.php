@@ -106,3 +106,7 @@ $router->get('/matura2018', ['uses' => 'MaturaController@matura2018']);
 
 //NAV - REKRUTACJA ////////////////////////////////////
 $router->get('/rekrutacja', ['uses' => 'RekrutacjaController@rekrutacja']);
+$router->get('/rekrutacja1A', ['uses' => 'RekrutacjaController@rekrutacja1A']);
+$router->get('/rekrutacja1B', ['uses' => 'RekrutacjaController@rekrutacja1B']);
+$router->get('/rekrutacja1C', ['uses' => 'RekrutacjaController@rekrutacja1C']);
+$router->get('/rekrutacja1D', ['uses' => 'RekrutacjaController@rekrutacja1D']);

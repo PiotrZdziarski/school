@@ -197,10 +197,10 @@
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
                                 <li><a class="nav-link__list" href="{{url('/rekrutacja')}}"> Rekrutacja </a></li>
-                                <li><a class="nav-link__list" href="shop.html"> Klasa IA </a></li>
-                                <li><a class="nav-link__list" href="shop.html"> Klasa IB </a></li>
-                                <li><a class="nav-link__list" href="shop.html"> Klasa IC </a></li>
-                                <li><a class="nav-link__list" href="shop.html"> Klasa ID </a></li>
+                                <li><a class="nav-link__list" href="{{url('/rekrutacja1A')}}"> Klasa IA </a></li>
+                                <li><a class="nav-link__list" href="{{url('/rekrutacja1B')}}"> Klasa IB </a></li>
+                                <li><a class="nav-link__list" href="{{url('/rekrutacja1C')}}"> Klasa IC </a></li>
+                                <li><a class="nav-link__list" href="{{url('/rekrutacja1D')}}"> Klasa ID </a></li>
                             </ul>
                         </div>
                     </li>
