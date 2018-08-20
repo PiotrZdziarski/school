@@ -70,7 +70,7 @@
                                     "Babie lato"
                                 </h4>
                                 <div class="hover:parent no4-3">
-                                    <img class="w-100 transition-0_3hover:zoomin" src="{{url('assets/img/subpages/babielato.jpg')}}" alt="">
+                                    <img class="w-100 transition-0_3 hover:zoomin" src="{{url('assets/img/subpages/babielato.jpg')}}" alt="">
                                     <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
                                         <a href="{{url('assets/img/subpages/babielato.jpg')}}" data-fancybox="gallery1" class="iconbox bg-white ti-zoom-in text-primary"></a>
                                     </div>
