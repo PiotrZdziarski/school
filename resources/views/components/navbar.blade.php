@@ -164,13 +164,13 @@
                                             <li><a class="nav-link__list" href="{{url('/osiagniecia_j_rosyjski')}}"> Język rosyjski</a>
                                             </li>
                                             <li><a class="nav-link__list" href="{{url('/osiagniecia_matematyka')}}"> Matematyka</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Przedsiębiorczość</a>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_przedsiebiorczosc')}}"> Przedsiębiorczość</a>
                                             </li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Religia</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Sportowe</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Wiedza o
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_religia')}}"> Religia</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_sportowe')}}"> Sportowe</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_wiedza_o_spoleczenstwie')}}"> Wiedza o
                                                     społeczeństwie</a></li>
-                                            <li><a class="nav-link__list" href="page-events.html"> Inne</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/osiagniecia_inne')}}"> Inne</a></li>
                                         </ul>
                                     </div>
                                 </li>

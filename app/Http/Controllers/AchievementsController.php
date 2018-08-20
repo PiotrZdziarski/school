@@ -96,4 +96,29 @@ class AchievementsController extends Controller
     {
         return view('sites.achievements.matematyka');
     }
+
+    public function osiagniecia_przedsiebiorczosc()
+    {
+        return view('sites.achievements.przedsiebiorczosc');
+    }
+
+    public function osiagniecia_religia()
+    {
+        return view('sites.achievements.religia');
+    }
+
+    public function osiagniecia_sportowe()
+    {
+        return view('sites.achievements.sportowe');
+    }
+
+    public function osiagniecia_wiedza_o_spoleczenstwie()
+    {
+        return view('sites.achievements.wiedza_o_spoleczenstwie');
+    }
+
+    public function osiagniecia_inne()
+    {
+        return view('sites.achievements.inne');
+    }
 }
