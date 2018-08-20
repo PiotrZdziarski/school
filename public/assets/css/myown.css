@@ -8,6 +8,7 @@
 @media(min-width: 992px) {
     .portraitimage{width: 30%;}
     .when-collapsed{width: 150% !important;}
+    .flexbox{display: -webkit-flex !important; display: -ms-flexbox !important;}
 }
 @media(max-width:992px) {
     .padding20lowwidth{padding: 0 20px 0 20px !important;}
@@ -16,6 +17,7 @@
     .navbar {height: 100px;}
     .chelmonskidiv{display: flex; justify-content: center;}
     .chelmonski{width: 60% !important; height: 100%; margin-top: 40px;}
+    .flexbox div{padding: 20px 0 20px 0 !important;}
 }
 
 @media(max-width: 476px) {
@@ -61,6 +63,7 @@
     margin-top: 27px !important;
 }
 .colordodgerblue{color:dodgerblue;}
+.colordodgerbluehover:hover{color: #60caff !important;}
 .no4-3{position:relative;overflow:hidden; width: 100%; padding-top: 0!important;}
 .no4-3no100width{position:relative;overflow:hidden; padding-top: 0!important;}
 .statutbtn{border-bottom: 1px solid #72727a; cursor:pointer; font-size: 20px; padding-bottom: 5px; color: #444444;}
