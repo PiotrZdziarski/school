@@ -69,7 +69,8 @@
                                         historyczny AK </a>
                                     <div class="dropdown-menu">
                                         <ul class="list-unstyled">
-                                            <li><a class="nav-link__list" href="page-login.html">---</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/klub_historyczny_ak')}}">Zarząd i Statut Klubu Historycznego AK</a></li>
+                                            <li><a class="nav-link__list" href="{{url('/inauguracja_klubu')}}">Inauguracja Klubu</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -80,6 +81,7 @@
                     <li class="nav-item nav-item__has-dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Informacje</a>
                         <ul class="dropdown-menu">
+                            <li style="margin-bottom: 1px;"><a href="{{url('/plan_lekcji')}}" class="nav-link__list">Plan Lekcji</a></li>
                             <li class="nav-item__has-dropdown">
                                 <a class="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown">
                                     Biblioteka </a>

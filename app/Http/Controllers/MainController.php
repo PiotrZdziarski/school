@@ -119,5 +119,15 @@ class MainController extends Controller
         return view('sites.zjazdy_kolonialne');
     }
 
+    public function klub_historyczny_ak()
+    {
+        return view('sites.klub_historyczny_ak');
+    }
+
+    public function inauguracja_klubu()
+    {
+        return view('sites.inauguracja_klubu');
+    }
+
 
 }

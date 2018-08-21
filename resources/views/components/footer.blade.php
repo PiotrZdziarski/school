@@ -40,11 +40,11 @@
                     <div class="width-3rem bg-primary height-3 mt-3"></div>
                     <ul class="list-unstyled marginTop-40">
                         <li class="mb-2"><a href="page-about.html">Aktualności</a></li>
-                        <li class="mb-2"><a href="page-contact.html">Kontakt</a></li>
-                        <li class="mb-2"><a href="page-sp-student-profile.html">Rekrutacja</a></li>
-                        <li class="mb-2"><a href="page-sp-admission-apply.html">Matura</a></li>
-                        <li class="mb-2"><a href="page-events.html">Osiągnięcia</a></li>
-                        <li class="mb-2"><a href="blog-card.html">Plan Lekcji</a></li>
+                        <li class="mb-2"><a href="{{url('/kontakt')}}">Kontakt</a></li>
+                        <li class="mb-2"><a href="{{url('/rekrutacja')}}">Rekrutacja</a></li>
+                        <li class="mb-2"><a href="{{url('/matura2018')}}">Matura</a></li>
+                        <li class="mb-2"><a href="{{url('/biblioteka_o_miejscu')}}">Biblioteka</a></li>
+                        <li class="mb-2"><a href="{{url('/plan_lekcji')}}">Plan Lekcji</a></li>
                     </ul>
                 </div>
 
