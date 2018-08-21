@@ -28,7 +28,7 @@
                             <section class="border-bottom border-light" id="content">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12 mb-1 text-center paddingTop-15">
+                                        <div class="col-12 mb-1 text-center paddingTop-35">
                                             <h2>Samorząd szkolny</h2>
                                         </div>
                                         <div class="col-lg-11 mx-auto paddingTop-10">

@@ -14,8 +14,6 @@
 //HOME
 $router->get('/', ['uses' => 'HomeController@home']);
 
-//NAV AKTUALNOSCI
-$router->get('/aktualnosci', ['uses' => 'MainController@aktualnosci']);
 
 //NAV - SZKOLA
 $router->get('/patron', ['uses' => 'MainController@patron']);
@@ -43,6 +41,7 @@ $router->get('/misja_szkoly', ['uses' => 'MainController@misja_szkoly']);
 $router->get('/kolo_wychowankow', ['uses' => 'MainController@kolo_wychowankow']);
 $router->get('/kolo_wychowankow_slawni_absolwenci', ['uses' => 'MainController@kolo_wychowankow_slawni_absolwenci']);
 $router->get('/kolo_wychowankow_historia', ['uses' => 'MainController@kolo_wychowankow_historia']);
+$router->get('/zjazdy_kolonialne', ['uses' => 'MainController@zjazdy_kolonialne']);
 
 //NAV - INFORMACJE ////////////////////////////////////
 //BIBLIOTEKA
@@ -110,3 +109,10 @@ $router->get('/rekrutacja1A', ['uses' => 'RekrutacjaController@rekrutacja1A']);
 $router->get('/rekrutacja1B', ['uses' => 'RekrutacjaController@rekrutacja1B']);
 $router->get('/rekrutacja1C', ['uses' => 'RekrutacjaController@rekrutacja1C']);
 $router->get('/rekrutacja1D', ['uses' => 'RekrutacjaController@rekrutacja1D']);
+
+
+//NAV AKTUALNOSCI ////////////////////////////////////
+$router->get('/aktualnosci', ['uses' => 'MainController@aktualnosci']);
+
+//NAV KONTAKT ////////////////////////////////////
+$router->get('/kontakt', ['uses' => 'MainController@kontakt']);

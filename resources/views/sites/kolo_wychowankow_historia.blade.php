@@ -31,7 +31,7 @@
                             <section class="border-bottom border-light" id="content">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12 mb-1 text-center paddingTop-15 paddingBottom-20">
+                                        <div class="col-12 mb-1 text-center paddingTop-35 paddingBottom-20">
                                             <h2>Koło Wychowanków - Historia od 1939 r.</h2>
                                         </div>
                                         <div class="col-lg-12 padding-25">

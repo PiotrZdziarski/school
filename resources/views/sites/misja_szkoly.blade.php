@@ -29,7 +29,7 @@
                             <section class="border-bottom border-light" id="content">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12 mb-1 text-center paddingTop-15">
+                                        <div class="col-12 mb-1 text-center paddingTop-35">
                                             <h2>Misja szkoły</h2>
                                         </div>
                                         <div class="col-lg-12 padding20lowwidth padding-30 mx-auto paddingTop-10 paddingBottom-40">I Liceum
