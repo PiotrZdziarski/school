@@ -36,6 +36,8 @@ $router->get('/rada_pedagogiczna', ['uses' => 'MainController@rada_pedagogiczna'
 $router->get('/samorzad_szkolny', ['uses' => 'MainController@samorzad_szkolny']);
 $router->get('/statut_szkoly', ['uses' => 'MainController@statut_szkoly']);
 $router->get('/misja_szkoly', ['uses' => 'MainController@misja_szkoly']);
+$router->get('/klub_historyczny_ak', ['uses' => 'MainController@klub_historyczny_ak']);
+$router->get('/inauguracja_klubu', ['uses' => 'MainController@inauguracja_klubu']);
 
 //KOLO WYCHOWANKOW
 $router->get('/kolo_wychowankow', ['uses' => 'MainController@kolo_wychowankow']);
@@ -44,6 +46,8 @@ $router->get('/kolo_wychowankow_historia', ['uses' => 'MainController@kolo_wycho
 $router->get('/zjazdy_kolonialne', ['uses' => 'MainController@zjazdy_kolonialne']);
 
 //NAV - INFORMACJE ////////////////////////////////////
+
+$router->get('/plan_lekcji', ['uses' => 'InformationController@plan_lekcji']);
 //BIBLIOTEKA
 $router->get('/biblioteka_o_miejscu', ['uses' => 'InformationController@biblioteka_o_miejscu']);
 $router->get('/biblioteka_godziny_otwarcia', ['uses' => 'InformationController@biblioteka_godziny_otwarcia']);
@@ -64,7 +68,6 @@ $router->get('/wydawanie_duplikatow', ['uses' => 'InformationController@wydawani
 $router->get('/procent', ['uses' => 'InformationController@procent']);
 $router->get('/zajecia_dodatkowe', ['uses' => 'InformationController@zajecia_dodatkowe']);
 $router->get('/RODO', ['uses' => 'InformationController@RODO']);
-
 
 
 //NAV - OSIAGNIECIA ////////////////////////////////////

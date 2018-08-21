@@ -93,4 +93,9 @@ class InformationController extends Controller
     {
         return view('sites.information.RODO');
     }
+
+    public function plan_lekcji()
+    {
+        return view('sites.information.plan_lekcji');
+    }
 }

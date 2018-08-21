@@ -36,7 +36,7 @@
                                              style="margin-top: -5px;">
                                             <h5 class=" paddingTop-20">Rekrutacja do klas pierwszych</h5>
 
-                                            <div class="hover:parent w-75 no4-3 mx-auto my-4">
+                                            <div class="hover:parent w-75 no4-3 mx-auto my-4" style="box-shadow: 0 7.5px 15px #e9e9e9;">
                                                 <img class="w-100 transition-0_3 hover:zoomin"
                                                      src="{{url('assets/img/rekrutacja/harmonogram-rekrutacji.png')}}"
                                                      alt="Harmonogram rekrutacji Chełmoński">

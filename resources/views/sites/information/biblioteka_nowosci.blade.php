@@ -12,7 +12,7 @@
                 Biblioteka - Nowości
             </h1>
             <ol class="breadcrumb breadcrumb-double-angle text-white bg-transparent p-0 wow slideInLeft"
-                data-wow-delay=".3s">
+                data-wow-delay=".3s"
                 <li class="breadcrumb-item"><a href="{{url('/')}}">Strona główna</a>
                 <li class="breadcrumb-item"><span class="opacity-08">Informacje</span>
                 <li class="breadcrumb-item"><a href="{{url('/biblioteka_o_miejscu')}}">Biblioteka</a>
