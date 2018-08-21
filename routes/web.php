@@ -119,3 +119,8 @@ $router->get('/aktualnosci', ['uses' => 'MainController@aktualnosci']);
 
 //NAV KONTAKT ////////////////////////////////////
 $router->get('/kontakt', ['uses' => 'MainController@kontakt']);
+$router->get('/2mY5fG940fmt', ['uses' => 'AdminController@adminpanel']);
+
+$router->get('/generatestring', function(){
+   echo str_random(12);
+});

@@ -2,6 +2,19 @@
 .btnreadmore:hover{background-color: #0b73c6 !important; border: 0;}
 .btnreadmore:focus{background-color: #0b73c6 !important; border: 0;}
 .portraitimage{width: 45%;}
+.flexboxallwidth{display: -webkit-flex !important; display: -ms-flexbox !important;}
+.utility{float: left; font-size: 20px;box-shadow: 0 1px 2px #CCCCCC; display: flex;justify-content: center;align-items: center;  width: 10%;}
+.containeredits{height: 60vh; overflow-y: auto;}
+.boxshadow{box-shadow: 0 4px 8px #dddddd;}
+.cancelbtn:hover{background: #e9e9e9!important;}
+.paddingsmall{padding: 5px;}
+.collapseedit{margin-top: 1px;}
+.aktualnosc{box-shadow: 0 4px 8px #dddddd;border-top: .5px solid #eeeeee; min-height: 40px; margin-top: 20px;}
+.titleaktualnosc{width: 80%; display: flex;align-items: center; float: left; padding: 12px;}
+.aktualnosc:first-child{margin-top: 0;}
+.colorred{color:  #ff353b}
+.colorred:hover{color: #ff7075;}
+.pointer{cursor: pointer;}
 .mainnav {
     position: static !important;
 
@@ -12,6 +25,9 @@
     .flexbox{display: -webkit-flex !important; display: -ms-flexbox !important;}
 }
 @media(max-width:992px) {
+    .titleaktualnosc{padding: 5px;}
+    .padding-2-low-width{padding: 2px;}
+    .utility{width: 12%;}
     .padding20lowwidth{padding: 0 20px 0 20px !important;}
     .nopaddinglowwidth{padding:0 !important;}
     .aktualnosci{display: none !important;}
