@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    Dyrektorzy
+    Kontakt
 @endsection
 @section('content')
 
@@ -8,12 +8,11 @@
     <div class="padding-y-60 bg-cover" data-dark-overlay="6" style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat; background-position: 55%;">
         <div class="container">
             <h1 class="text-white wow slideInLeft" >
-                Dyrektorzy
+                Kontakt
             </h1>
             <ol class="breadcrumb breadcrumb-double-angle text-white bg-transparent p-0 wow slideInLeft" data-wow-delay=".3s">
                 <li class="breadcrumb-item"><a href="{{url('/')}}">Strona główna</a></li>
-                <li class="breadcrumb-item"><span class="opacity-08">Szkoła</span></li>
-                <li class="breadcrumb-item">Dyrektorzy</li>
+                <li class="breadcrumb-item">Kontakt</li>
             </ol>
         </div>
     </div>
@@ -27,7 +26,7 @@
                         <div class="card-body padding20lowwidth" style="box-shadow: 0 10px 20px #eaeaea!important;">
                             <section>
                                 <h2 class="card-title">
-                                    Dyrektorzy
+                                    Kontakt
                                 </h2>
                                 <img class="float-left paddingTop-20 paddingRight-20 paddingTop-10 portraitimage" src="{{url('assets/img/subpages/elżbietaskoneczna.jpg')}}">
                                 <h4 class="my-3 paddingTop-15">

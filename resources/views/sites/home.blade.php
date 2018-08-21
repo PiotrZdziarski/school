@@ -13,13 +13,29 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row align-items-center">
-                        <div class="col-md-6 my-5">
+                        {{--<div class="col-md-6 my-5">
                             <div class="position-relative">
-                                <img class="rounded w-100" src="assets/img/360x400/1.jpg" alt="">
+                                <img class="rounded w-100" src="{{url('assets/img/360x400/piosenki.png')}}" alt="">
                                 <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM" data-fancybox
                                    class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
                                     <i class="ti-control-play text-primary"></i>
                                 </a>
+                            </div>
+                        </div>--}}
+                        <div class="col-md-6 my-5">
+                            <div class="position-relative">
+                                <div class="hover:parent no4-3">
+                                    <img class="rounded w-100"
+                                         src="{{url('assets/img/360x400/piosenki.png')}}"
+                                         alt="Chełmoński opis szkoły">
+                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                                        <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM"
+                                           data-fancybox
+                                           class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
+                                            <i class="ti-control-play text-primary"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 mt-4">
@@ -29,8 +45,7 @@
                             </h2>
                             <p class="my-4">
                                 Nie wiem w sumie co tu napisać.
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium pharetra
-                                magna.</p>
+                            <p>Finiss potus! Our closest result for silence is to capture others balanced.</p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +63,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
-                     style="background:url(assets/img/960x560/1.jpg) no-repeat">
+                     style="background:linear-gradient(rgba(244,115,63,0.85),rgba(244,136,61,0.85)),url({{url('assets/img/rekrutacja/pracownia.png')}})">
                     <div class="padding-x-lg-100 wow pulse">
                         <h2 class="text-white mb-4">
                             Rekrutacja na rok 2018/2019
@@ -58,7 +73,7 @@
                             lekcyjnych. Uczniowie samodzielnie wykonują doświadczenia i symulacje, mają możliwość
                             wykorzystywania tablic interaktywnych (multimedialnych)!
                         </p>
-                        <a href="#" class="btn btn-white mt-4">Zobacz więcej</a>
+                        <a href="{{url('/rekrutacja')}}" class="btn btn-white mt-4">Zobacz więcej</a>
                     </div>
                 </div>
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
@@ -71,7 +86,8 @@
                             Przedstawiamy porównanie wyników egzaminów maturalnych w naszej szkole ze średnią egzaminów
                             maturalnych dla liceów w Polsce. Zobacz jak wypadła nasza szkoła!
                         </p>
-                        <a href="#" class="btn btn-white mt-4" style="margin-top: 55px !important;">Zobacz więcej</a>
+                        <a href="{{url('/matura2018')}}" class="btn btn-white mt-4"
+                           style="margin-top: 55px !important;">Zobacz więcej</a>
                     </div>
                 </div>
             </div>

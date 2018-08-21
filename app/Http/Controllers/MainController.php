@@ -19,6 +19,11 @@ class MainController extends Controller
         return view('layouts.app');
     }
 
+    public function kontakt()
+    {
+        return view('sites.kontakt');
+    }
+
     public function patron()
     {
         return view('sites.patron');
@@ -107,6 +112,11 @@ class MainController extends Controller
     public function kolo_wychowankow_historia()
     {
         return view('sites.kolo_wychowankow_historia');
+    }
+
+    public function zjazdy_kolonialne()
+    {
+        return view('sites.zjazdy_kolonialne');
     }
 
 

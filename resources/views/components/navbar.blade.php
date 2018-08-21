@@ -59,7 +59,7 @@
                                                     absolwenci</a></li>
                                             <li><a class="nav-link__list" href="{{url('/kolo_wychowankow_historia')}}">
                                                     Historia od 1939r.</a></li>
-                                            <li><a class="nav-link__list" href="page-signup.html"> Zjazd kol. od 1939
+                                            <li><a class="nav-link__list" href="{{url('zjazdy_kolonialne')}}"> Zjazd kol. od 1939
                                                     r.</a></li>
                                         </ul>
                                     </div>
@@ -209,7 +209,7 @@
                         <a class="nav-link " href="#" data-toggle="dropdown">Aktualności</a>
                     </li>
                     <li class="nav-item nav-item__has-megamenu">
-                        <a class="nav-link" href="#" data-toggle="dropdown">Kontakt</a>
+                        <a class="nav-link" href="{{url('/kontakt')}}">Kontakt</a>
                     </li>
                 </ul>
             </div>

@@ -1,4 +1,4 @@
-<section class="height-90vh py-5 flex-center jarallax" data-dark-overlay="5" style="background:url(assets/img/1920x800/1.jpg) no-repeat;">
+<section class="height-90vh py-5 flex-center jarallax" data-dark-overlay="6" style="background:url({{url('assets/img/school/5.jpg')}}) no-repeat;">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 text-white">
@@ -15,7 +15,7 @@
                     Jednak nauka to nie wszystko – równie ważne są: tradycja, niepowtarzalność i przyjazna atmosfera. To właśnie zapewnia I Liceum Ogólnokształcące im. Józefa Chełmońskiego Łowiczu. Jedni patrzą na nas z zazdrością, inni próbują dorównać. My sami jesteśmy dumni z tego, że uczymy się w I LO.
                     A powodów do dumy jest wiele…
                 </p>
-                <a href="#" class="btn btn-primary btn-lg mt-3 wow slideInUp btnreadmore">Zobacz więcej</a>
+                <a href="{{url('/misja_szkoly')}}" class="btn btn-primary btn-lg mt-3 wow slideInUp btnreadmore">Zobacz więcej</a>
             </div>
         </div>
     </div>
