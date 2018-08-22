@@ -59,7 +59,35 @@
 @yield('content')
 
 
+<?php
+session_start();
+if(isset($_SESSION['status'])):
+?>
+<script>
+    //document.getElementById('komunikat').style.webkitAnimationPlayState = "running";
+    setTimeout(fadeOut, 3000);
 
+    function fadeOut() {
+        var fadeTarget = document.getElementById("komunikat");
+        var fadeEffect = setInterval(function () {
+            if (!fadeTarget.style.opacity) {
+                fadeTarget.style.opacity = 1;
+            }
+            if (fadeTarget.style.opacity > 0) {
+                fadeTarget.style.opacity -= 1;
+            } else {
+                clearInterval(fadeEffect);
+            }
+        }, 200);
+    }
+</script>
+
+<div id="komunikat"><?php echo $_SESSION['status'] ?><i onclick="fadeOut()" class="ti-close" id="closekomunikat"></i></div>
+<?php
+    endif;
+    unset($_SESSION['status']);
+    session_destroy();
+?>
 
 
 <div class="scroll-top">
