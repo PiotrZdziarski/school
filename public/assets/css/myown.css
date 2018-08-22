@@ -55,6 +55,7 @@
 #komunikat {
     position: fixed;
     left: 50%;
+    z-index: 999999;
     transform: translateX(-50%);
     bottom: 50px;
     text-align: center;
@@ -83,6 +84,14 @@
 }
 #closekomunikat:hover {
     color: #656463;
+}
+
+.output {
+    width: 100%;
+    height: 130px;
+    border: 1px solid #dddddd;
+    background-size:  cover;
+    background-repeat: no-repeat;
 }
 
 .boxshadow {

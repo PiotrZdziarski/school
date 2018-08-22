@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
+use Symfony\Component\HttpFoundation\Response;
 
 
 class AdminController extends Controller
@@ -22,11 +23,18 @@ class AdminController extends Controller
     {
         $title = $request->request->get('title');
         $description = $request->request->get('description');
+        $name = '';
+        if($request->hasFile('image')) {
+            $image = $request->file('image');
+            $name = $image->getClientOriginalName();
+            $image->move('assets/img/aktualnosci', $name);
+        }
         $now = date('Y-m-d H:i:s');
 
         DB::table('aktualnosci')->insert([
             'title' => $title,
             'description' => $description,
+            'image' => $name,
             'created_at' => $now,
             'updated_at' => $now
         ]);
@@ -41,11 +49,28 @@ class AdminController extends Controller
         $title = $request->request->get('title');
         $description = $request->request->get('description');
         $id = $request->request->get('id');
+        $previousname = DB::table('aktualnosci')->where('id', $id)->select('image')->get();
+        $previousname = $previousname[0]->image;
         $now = date('Y-m-d H:i:s');
+
+        if($request->hasFile('image')) {
+            $image = $request->file('image');
+            $name = $image->getClientOriginalName();
+            $image->move('assets/img/aktualnosci', $name);
+        }
+
+        $finalname = $previousname;
+
+        if(isset($name)) {
+            if($name != '') {
+                $finalname = $name;
+            }
+        }
 
         DB::table('aktualnosci')->where('id', $id)->update([
             'title' => $title,
             'description' => $description,
+            'image' => $finalname,
             'updated_at' => $now
         ]);
 
