@@ -1,58 +1,245 @@
-.btnreadmore{background-color: dodgerblue !important; border: 0;}
-.btnreadmore:hover{background-color: #0b73c6 !important; border: 0;}
-.btnreadmore:focus{background-color: #0b73c6 !important; border: 0;}
-.portraitimage{width: 45%;}
-.flexboxallwidth{display: -webkit-flex !important; display: -ms-flexbox !important;}
-.utility{float: left; font-size: 20px;box-shadow: 0 1px 2px #CCCCCC; display: flex;justify-content: center;align-items: center;  width: 10%;}
-.containeredits{height: 60vh; overflow-y: auto;}
-.boxshadow{box-shadow: 0 4px 8px #dddddd;}
-.cancelbtn:hover{background: #e9e9e9!important;}
-.paddingsmall{padding: 5px;}
-.collapseedit{margin-top: 1px;}
-.aktualnosc{box-shadow: 0 4px 8px #dddddd;border-top: .5px solid #eeeeee; min-height: 40px; margin-top: 20px;}
-.titleaktualnosc{width: 80%; display: flex;align-items: center; float: left; padding: 12px;}
-.aktualnosc:first-child{margin-top: 0;}
-.colorred{color:  #ff353b}
-.colorred:hover{color: #ff7075;}
-.pointer{cursor: pointer;}
+.btnreadmore {
+    background-color: dodgerblue !important;
+    border: 0;
+}
+
+.btnreadmore:hover {
+    background-color: #0b73c6 !important;
+    border: 0;
+}
+
+.btnreadmore:focus {
+    background-color: #0b73c6 !important;
+    border: 0;
+}
+
+.portraitimage {
+    width: 45%;
+}
+
+.flexboxallwidth {
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+}
+
+.utility {
+    float: left;
+    font-size: 20px;
+    box-shadow: 0 1px 2px #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.containeredits {
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.containeredits::-webkit-scrollbar {
+    width: .4em;
+}
+
+.containeredits::-webkit-scrollbar-track {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.containeredits::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+#komunikat {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    text-align: center;
+    padding: 12px 22px 12px 22px;
+    transition: 1s all ease-in-out;
+    font-family: "Maven Pro", sans-serif;
+    color: #333333;
+    border-radius: 5px;
+    box-shadow:  0 0 30px #26d585 !important;
+    font-size: 24px;
+    background-color: white;
+
+}
+
+
+.displaynone {
+    display: none;
+}
+#closekomunikat {
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 700;
+}
+#closekomunikat:hover {
+    color: #656463;
+}
+
+.boxshadow {
+    box-shadow: 0 4px 8px #dddddd;
+}
+
+.cancelbtn:hover {
+    background: #e9e9e9 !important;
+}
+
+.paddingsmall {
+    padding: 5px;
+}
+
+.collapseedit {
+    margin-top: 1px;
+}
+
+.aktualnosc {
+    box-shadow: 0 4px 8px #dddddd;
+    border-top: .5px solid #eeeeee;
+    min-height: 40px;
+    margin-top: 20px;
+}
+
+.titleaktualnosc {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 12px;
+}
+
+.aktualnosc:first-child {
+    margin-top: 0;
+}
+
+.colorred {
+    color: #ff353b
+}
+
+.colorred:hover {
+    color: #ff7075;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
 .mainnav {
     position: static !important;
 
 }
-@media(min-width: 992px) {
-    .portraitimage{width: 30%;}
-    .when-collapsed{width: 150% !important;}
-    .flexbox{display: -webkit-flex !important; display: -ms-flexbox !important;}
-}
-@media(max-width:992px) {
-    .titleaktualnosc{padding: 5px;}
-    .padding-2-low-width{padding: 2px;}
-    .utility{width: 12%;}
-    .padding20lowwidth{padding: 0 20px 0 20px !important;}
-    .nopaddinglowwidth{padding:0 !important;}
-    .aktualnosci{display: none !important;}
-    .navbar {height: 100px;}
-    .chelmonskidiv{display: flex; justify-content: center;}
-    .chelmonski{width: 60% !important; height: 100%; margin-top: 40px;}
-    .flexbox div{padding: 20px 0 20px 0 !important;}
+
+@media (min-width: 992px) {
+    .portraitimage {
+        width: 30%;
+    }
+
+    .when-collapsed {
+        width: 150% !important;
+    }
+
+    .flexbox {
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+    }
 }
 
-@media(max-width: 476px) {
-    .mainlogo{width: 65px !important; height: 65px !important;}
-    .mainILO{height: 40px !important;}
+@media (max-width: 992px) {
+    #komunikat {
+        width: 80vw !important;
+    }
+    .titleaktualnosc {
+        padding: 5px;
+    }
+
+    .padding-2-low-width {
+        padding: 2px;
+    }
+
+    .utility {
+        width: 12%;
+    }
+
+    .padding20lowwidth {
+        padding: 0 20px 0 20px !important;
+    }
+
+    .nopaddinglowwidth {
+        padding: 0 !important;
+    }
+
+    .aktualnosci {
+        display: none !important;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+
+    .chelmonskidiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .chelmonski {
+        width: 60% !important;
+        height: 100%;
+        margin-top: 40px;
+    }
+
+    .flexbox div {
+        padding: 20px 0 20px 0 !important;
+    }
 }
 
-@media(max-width:768px) {
+@media (max-width: 476px) {
+    .mainlogo {
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    .mainILO {
+        height: 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
     .googlemaps {
         min-height: 290px;
     }
 }
-.nav-link:hover {color: #00CB54}
-.btnallacti{color: #0b73c6  !important;}
-.btnallacti:hover{color: #0b9dff !important; text-decoration: none !important; }
-.playvid{transition: .3s all ease-in-out !important;}
-.playvid:hover{font-size: 20px !important; transform: translate(-50%, -50%) scale(1.1)!important;}
-.image4-3{
+
+.nav-link:hover {
+    color: #00CB54
+}
+
+.btnallacti {
+    color: #0b73c6 !important;
+}
+
+.btnallacti:hover {
+    color: #0b9dff !important;
+    text-decoration: none !important;
+}
+
+.playvid {
+    transition: .3s all ease-in-out !important;
+}
+
+.playvid:hover {
+    font-size: 20px !important;
+    transform: translate(-50%, -50%) scale(1.1) !important;
+}
+
+.image4-3 {
     position: absolute;
     top: 0 !important;
     display: block;
@@ -61,29 +248,81 @@
     bottom: 0 !important;
     right: 0;
 }
+
 .btnpatron {
     background-color: #f3ae4d !important;
     border: 0;
 }
+
 .btnpatron:hover {
     background-color: #da9c45 !important;
 }
-.its_me{color: #AAAAAA !important;}
-.its_me:hover{color: #CCCCCC !important;}
-.dropdown-menu{border-top: 3px solid dodgerblue !important;}
-.nav-link:hover{color: dodgerblue!important; }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    .nav-item{margin-left: 0 !important;}
-    .nav{margin-left:75px !important;}
+
+.its_me {
+    color: #AAAAAA !important;
 }
-.aktualnosci_sidebar{
+
+.its_me:hover {
+    color: #CCCCCC !important;
+}
+
+.dropdown-menu {
+    border-top: 3px solid dodgerblue !important;
+}
+
+.nav-link:hover {
+    color: dodgerblue !important;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .nav-item {
+        margin-left: 0 !important;
+    }
+
+    .nav {
+        margin-left: 75px !important;
+    }
+}
+
+.aktualnosci_sidebar {
     margin-top: 27px !important;
 }
-.colordodgerblue{color:dodgerblue;}
-.colordodgerbluehover:hover{color: #60caff !important;}
-.no4-3{position:relative;overflow:hidden; width: 100%; padding-top: 0!important;}
-.no4-3no100width{position:relative;overflow:hidden; padding-top: 0!important;}
-.statutbtn{border-bottom: 1px solid #72727a; cursor:pointer; font-size: 20px; padding-bottom: 5px; color: #444444;}
-.statutbtn:hover{border-bottom: 1px solid #b4b4bc; color: #898989;}
-#content > .container > .row {box-shadow: 0 10px 20px #eaeaea;}
+
+.colordodgerblue {
+    color: dodgerblue;
+}
+
+.colordodgerbluehover:hover {
+    color: #60caff !important;
+}
+
+.no4-3 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 0 !important;
+}
+
+.no4-3no100width {
+    position: relative;
+    overflow: hidden;
+    padding-top: 0 !important;
+}
+
+.statutbtn {
+    border-bottom: 1px solid #72727a;
+    cursor: pointer;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #444444;
+}
+
+.statutbtn:hover {
+    border-bottom: 1px solid #b4b4bc;
+    color: #898989;
+}
+
+#content > .container > .row {
+    box-shadow: 0 10px 20px #eaeaea;
+}
 
