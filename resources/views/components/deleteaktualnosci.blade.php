@@ -5,7 +5,7 @@
                 Usunąć aktualność?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn paddingsmall cancelbtn" style="position: absolute; left: 15px;" data-dismiss="modal">Anuluj</button>
+                <button type="button" class="btn paddingsmall cancelbtn" style="position: absolute; left: 15px; color: #555555 !important;" data-dismiss="modal">Anuluj</button>
                 <a href="{{url("deleteaktualnosc/$aktualnosc->id" )}}"><button type="button" class="btn btn-danger paddingsmall">Usuń</button></a>
             </div>
         </div>

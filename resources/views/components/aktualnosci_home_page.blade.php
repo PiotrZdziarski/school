@@ -6,41 +6,18 @@
                         </span>
         </div>
 
-        <div class="p-4 border-bottom wow fadeInUp">
-            <p class="text-primary mb-1 dodgerbluenohover">
-                July 02, 2018
-            </p>
-            <a href="#">
-                Maximizing potential through individual attention.
-            </a>
-        </div>
-
-        <div class="p-4 border-bottom wow fadeInUp">
-            <p class="text-primary mb-1">
-                July 17, 2018
-            </p>
-            <a href="#">
-                Nullam quis ante etiam sit amet eget eros faucibus
-            </a>
-        </div>
-
-        <div class="p-4 border-bottom wow fadeInUp">
-            <p class="text-primary mb-1">
-                June 08, 2018
-            </p>
-            <a href="#">
-                Adsing eusmo tempor indeduny
-            </a>
-        </div>
-
-        <div class="p-4 border-bottom wow fadeInUp">
-            <p class="text-primary mb-1">
-                June 20, 2018
-            </p>
-            <a href="#">
-                Nullam quis ante etiam sit amet eget eros faucibus
-            </a>
-        </div>
+        @foreach($aktualnosciDB as $aktualnosc)
+            <div class="p-4 border-bottom wow fadeInUp">
+                <p class="text-primary mb-1 dodgerbluenohover">
+                    @php
+                        echo Carbon\Carbon::parse($aktualnosc->created_at)->format('d F, Y');
+                    @endphp
+                </p>
+                <a href="#">
+                    {{$aktualnosc->title}}
+                </a>
+            </div>
+        @endforeach
         <div class="p-4">
             <a href="#" class="btn btn-link pl-0 btnallacti">
                 Zobacz wszystkie aktualności
