@@ -27,8 +27,13 @@
                                 <div class="hover:parent no4-3">
                                     <img class="rounded w-100"
                                          src="{{url('assets/img/360x400/piosenki.png')}}"
-                                         alt="Chełmoński opis szkoły">
-                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                                         alt="Chełmoński opis szkoły" style="filter:brightness(50%);">
+                                    <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM"
+                                       data-fancybox
+                                       class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
+                                        <i class="ti-control-play text-primary"></i>
+                                    </a>
+                                    <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_4 hover:show">
                                         <a href="https://www.youtube.com/watch?v=GMc7aS7MbDM"
                                            data-fancybox
                                            class="iconbox iconbox-lg bg-white position-absolute absolute-center playvid">
