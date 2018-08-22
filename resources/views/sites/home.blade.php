@@ -111,61 +111,32 @@
             </div> <!-- END row-->
 
             <div class="row mt-4">
+                <?php $count = 0; ?>
 
-                <div class="col-lg-4 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".1s">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Best Student Spots in London
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
+                    @foreach($aktualnosciDB as $aktualnosc)
+
+                    <?php if($count == 3) break;?>
+                    <?php $count++; ?>
+
+                    <div class="col-lg-4 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".1s">
+                        <div class="card padding-30 shadow-v1">
+                            <p class="text-primary">
+                                @php
+                                    echo Carbon\Carbon::parse($aktualnosc->created_at)->format('d F, Y');
+                                @endphp
+                            </p>
+                            <a href="#" class="h4 mb-3">
+                                {{$aktualnosc->title}}
+                            </a>
+                            <p>
+                                {{$aktualnosc->description}}
+                            </p>
+                            <a href="#" class="btn btn-outline-primary align-self-start mt-2">
+                                Zobacz więcej
+                            </a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".2s">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Believe in Yourself! Have Faith!
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".3s">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Bringing an Online Community Together
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
-                    </div>
-                </div>
-
+                @endforeach
 
             </div> <!-- END row-->
         </div> <!-- END container-->
