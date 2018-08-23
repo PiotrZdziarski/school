@@ -18,7 +18,8 @@ class MainController extends Controller
 
     public function aktualnosci()
     {
-        return view('layouts.app', ['aktualnosciDB' => $this->aktualnosciDB]);
+        $aktualnosciDB = DB::table('aktualnosci')->orderBy('id', 'desc')->get();
+        return view('sites.aktualnosci', ['aktualnosciDB' => $aktualnosciDB]);
     }
 
     public function kontakt()

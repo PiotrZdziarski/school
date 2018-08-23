@@ -65,7 +65,7 @@ if(isset($_SESSION['status'])):
 ?>
 <script>
     //document.getElementById('komunikat').style.webkitAnimationPlayState = "running";
-    setTimeout(fadeOut, 3000);
+    setTimeout(fadeOut, 4000);
 
     function fadeOut() {
         var fadeTarget = document.getElementById("komunikat");

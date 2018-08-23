@@ -69,7 +69,7 @@
                         <div class="container padding-2-low-width containeredits">
                             @foreach($aktualnosciDB as  $aktualnosc)
                                 <div class="w-100 flexboxallwidth aktualnosc">
-                                    <div class="titleaktualnosc">{{$aktualnosc->title}}</div>
+                                    <div class="titleaktualnosc">{{$aktualnosc->title}} <br>ID - {{$aktualnosc->id}}</div>
                                     <div class="utility"><i data-toggle="collapse" href="#collapse{{$aktualnosc->id}}"
                                                             class="ti-pencil colordodgerblue colordodgerbluehover pointer"></i>
                                     </div>

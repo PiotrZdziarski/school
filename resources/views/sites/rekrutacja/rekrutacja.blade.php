@@ -141,7 +141,7 @@
                                             <div class="col-lg-12 mx-auto paddingTop-40">
                                                 <div class="table-responsive my-4">
                                                     <table class="table table-bordered"
-                                                           style="font-family: Arial,sans-serif; width: 200% !important; overflow-x: scroll;">
+                                                           style="font-family: Arial,sans-serif; width: 200% !important;">
                                                         <thead>
                                                         <tr>
                                                             <th style="width: 10%;" scope="col"

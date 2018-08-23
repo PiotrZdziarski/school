@@ -22,4 +22,12 @@ class HomeController extends Controller
         return view('sites.home', ['aktualnosciDB' => $this->aktualnosciDB]);
     }
 
+    public function aktualnosc($id)
+    {
+        $aktualnosc = DB::table('aktualnosci')
+            ->where('id', $id)
+            ->get();
+        return view('sites.aktualnosc', ['aktualnosc' => $aktualnosc, 'aktualnosciDB' => $this->aktualnosciDB]);
+    }
+
 }

@@ -5,8 +5,8 @@
 
                 <div class="col-lg-3 col-md-6 mt-5">
                     <a href="{{url('/')}}">
-                        <img alt="ILO" style="height: 70px;" src="assets/img/logo.png">
-                        <img alt="ILO" style="height: 50px; margin-left: 10px;" class="wow slideInLeft" src="assets/img/ILO.png">
+                        <img alt="ILO" style="height: 70px;" src="{{url('/assets/img/logo.png')}}">
+                        <img alt="ILO" style="height: 50px; margin-left: 10px;" class="wow slideInLeft" src="{{url('/assets/img/ILO.png')}}">
                     </a>
                     <div class="margin-y-40">
                         <p>
@@ -58,7 +58,7 @@
 
     <div class="footer-bottom bg-black-0_9 py-5 text-center">
         <div class="container">
-            <p class="text-white-0_5 mb-0">Copyright © I LO im J. Chełmońskiego, Łowicz. Created by <a href="https://github.com/PiotrZdziarski" class="its_me" target="_blank">Piotr Zdziarski</a></p>
+            <p class="text-white-0_5 mb-0">Copyright © I LO im J. Chełmońskiego, Łowicz. Developed by <a href="https://github.com/PiotrZdziarski" class="its_me" target="_blank">Piotr Zdziarski</a></p>
         </div>
     </div>  <!-- END footer-bottom-->
 </footer> <!-- END site-footer -->
