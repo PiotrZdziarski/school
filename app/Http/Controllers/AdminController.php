@@ -38,9 +38,11 @@ class AdminController extends Controller
             'created_at' => $now,
             'updated_at' => $now
         ]);
+        $checkidDB = DB::table('aktualnosci')->take(1)->orderBy('id', 'desc')->get();
+        $id = $checkidDB[0]->id;
 
         session_start();
-        $_SESSION['status'] = 'Dodano aktualność!';
+        $_SESSION['status'] = "Dodano aktualność! ID - $id";
         return redirect($this->route);
     }
 

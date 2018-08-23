@@ -94,6 +94,15 @@
     background-repeat: no-repeat;
 }
 
+.outputnews {
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #dddddd;
+    background-size:  cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
 .boxshadow {
     box-shadow: 0 4px 8px #dddddd;
 }
@@ -178,8 +187,9 @@
     }
 
     .padding20lowwidth {
-        padding: 0 20px 0 20px !important;
+        padding: 0 20px 0 20px;
     }
+
 
     .nopaddinglowwidth {
         padding: 0 !important;
@@ -326,6 +336,7 @@
     color: #444444;
 }
 
+
 .statutbtn:hover {
     border-bottom: 1px solid #b4b4bc;
     color: #898989;
@@ -333,5 +344,56 @@
 
 #content > .container > .row {
     box-shadow: 0 10px 20px #eaeaea;
+}
+
+.newscontainer{
+    box-shadow: 0 4px 16px #e4e4e4; display: flex; align-items: center; padding: 10px; background-color: white !important;
+}
+.imagecontainer {
+    justify-content: center; height: 100%; display: flex; padding: 0 !important;  margin:0 !important;align-items: center;"
+}
+.imagenews {
+    width: 100%; height: 100%; !important; cursor: pointer
+}
+
+.datenews{margin-top: 15px;}
+
+.link {
+    color: dodgerblue;
+}
+.link:hover {
+    color: #50daff;
+}
+.image {
+    background-repeat: no-repeat; background-size: cover; background-position: 50%;
+}
+@media(max-width: 768px) {
+    .padding20lowwidthimportant {
+        padding: 0 20px 40px 20px !important;
+    }
+    .newscontainer{padding-top: 0 !important; padding-bottom: 0 !important;}
+    .width55telefon{width: 60% !important;}
+    .padding10lowwidth{padding: 10px !important;}
+}
+
+
+
+@media(min-width: 476px) {
+    .display-flex-center{display: flex; justify-content: center; align-items: center;}
+}
+
+
+@media(max-width: 476px) {
+    .padding15lowwidth {
+        padding: 10px 17px 10px 17px !important;
+    }
+    .titlelowwidth{font-size: 24px;}
+    .titlenews{font-size: 17px !important; margin-bottom: 2px !important;}
+    .descritptionnews{font-size: 14px !important;}
+    .datenews{font-size: 15px !important;margin-top: 10px;}
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+    .tablet8padding{padding: 8px !important;}
 }
 

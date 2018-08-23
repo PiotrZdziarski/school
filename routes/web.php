@@ -14,6 +14,8 @@
 //HOME
 $router->get('/', ['uses' => 'HomeController@home']);
 
+$router->get('/aktualnosc_{id}_{title}', ['uses' => 'HomeController@aktualnosc']);
+
 
 //NAV - SZKOLA
 $router->get('/patron', ['uses' => 'MainController@patron']);
@@ -116,7 +118,6 @@ $router->get('/rekrutacja1D', ['uses' => 'RekrutacjaController@rekrutacja1D']);
 
 //NAV AKTUALNOSCI ////////////////////////////////////
 $router->get('/aktualnosci', ['uses' => 'MainController@aktualnosci']);
-
 //NAV KONTAKT ////////////////////////////////////
 $router->get('/kontakt', ['uses' => 'MainController@kontakt']);
 

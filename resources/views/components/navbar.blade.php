@@ -4,10 +4,10 @@
             <div class="navbar-brand">
                 <a class="logo-default" href="{{url('/')}}"><img class="mainlogo" alt="logochelmonski"
                                                                  style="width: 80px; height: 80px;"
-                                                                 src="assets/img/logo.png"><img class="mainILO"
+                                                                 src="{{url('assets/img/logo.png')}}"><img class="mainILO"
                                                                                                 alt="ILO"
                                                                                                 style="height: 50px; margin-left: 10px;"
-                                                                                                src="assets/img/ILO.png"></a>
+                                                                                                src="{{url('/assets/img/ILO.png')}}"></a>
             </div>
             <span aria-expanded="false" class="navbar-toggler ml-auto collapsed" data-target="#ec-nav__collapsible"
                   data-toggle="collapse">
@@ -208,7 +208,7 @@
                     </li>
 
                     <li class="nav-item nav-item__has-megamenu">
-                        <a class="nav-link " href="#" data-toggle="dropdown">Aktualności</a>
+                        <a class="nav-link " href="{{url('/aktualnosci')}}">Aktualności</a>
                     </li>
                     <li class="nav-item nav-item__has-megamenu">
                         <a class="nav-link" href="{{url('/kontakt')}}">Kontakt</a>
