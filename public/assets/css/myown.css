@@ -92,6 +92,7 @@
     border: 1px solid #dddddd;
     background-size:  cover;
     background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .outputnews {

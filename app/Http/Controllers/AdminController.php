@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Controllers;
 
 
@@ -24,7 +25,7 @@ class AdminController extends Controller
         $title = $request->request->get('title');
         $description = $request->request->get('description');
         $name = '';
-        if($request->hasFile('image')) {
+        if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = $image->getClientOriginalName();
             $image->move('assets/img/aktualnosci', $name);
@@ -41,6 +42,7 @@ class AdminController extends Controller
         $checkidDB = DB::table('aktualnosci')->take(1)->orderBy('id', 'desc')->get();
         $id = $checkidDB[0]->id;
 
+        copy('../resources/views/layouts/aktualnosc_layout.blade.php', "../resources/views/aktualnosci/$id.blade.php");
         session_start();
         $_SESSION['status'] = "Dodano aktualność! ID - $id";
         return redirect($this->route);
@@ -55,7 +57,7 @@ class AdminController extends Controller
         $previousname = $previousname[0]->image;
         $now = date('Y-m-d H:i:s');
 
-        if($request->hasFile('image')) {
+        if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = $image->getClientOriginalName();
             $image->move('assets/img/aktualnosci', $name);
@@ -63,8 +65,8 @@ class AdminController extends Controller
 
         $finalname = $previousname;
 
-        if(isset($name)) {
-            if($name != '') {
+        if (isset($name)) {
+            if ($name != '') {
                 $finalname = $name;
             }
         }
@@ -85,6 +87,9 @@ class AdminController extends Controller
     public function deleteaktualnosc($id)
     {
         DB::table('aktualnosci')->where('id', $id)->delete();
+        if (file_exists("../resources/views/aktualnosci/$id.blade.php")) {
+            unlink("../resources/views/aktualnosci/$id.blade.php");
+        }
         session_start();
         $_SESSION['status'] = 'Usunięto aktualność!';
         return redirect($this->route);
