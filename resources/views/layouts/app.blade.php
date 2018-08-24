@@ -23,6 +23,7 @@
 
     <!--Google fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700%7CWork+Sans:400,500;">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 
 
     <!-- Icon fonts-->

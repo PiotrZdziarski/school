@@ -9,7 +9,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
 <!-- 2 ZDGJĘCIA W RZĘDZIE -->
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_105525-225x169.jpg')}}'); height: 250px;"></div>
@@ -21,7 +21,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_105519-225x169.jpg')}}'); height: 250px;"></div>
@@ -37,7 +37,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
 
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_105419-225x169.jpg')}}'); height: 250px;"></div>
@@ -49,7 +49,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_104213-225x169.jpg')}}'); height: 250px;"></div>
@@ -65,7 +65,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
 
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_103523-225x169.jpg')}}'); height: 250px;"></div>
@@ -77,7 +77,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_104210-225x169.jpg')}}'); height: 250px;"></div>
@@ -93,7 +93,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
 
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_104250-225x169.jpg')}}'); height: 250px;"></div>
@@ -105,7 +105,7 @@ Uczniowie klasy 2b wybrali się 23 maja 2018 r. na spektakl „Wszystko w rodzin
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/aktualnosci/IMG_20180523_103505-225x169.jpg')}}'); height: 250px;"></div>
