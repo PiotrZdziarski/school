@@ -14,7 +14,7 @@
 //HOME
 $router->get('/', ['uses' => 'HomeController@home']);
 
-$router->get('/aktualnosc_{id}_{title}', ['uses' => 'HomeController@aktualnosc']);
+$router->get('/aktualnosc_{id}', ['uses' => 'HomeController@aktualnosc']);
 
 
 //NAV - SZKOLA

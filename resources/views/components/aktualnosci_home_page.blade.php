@@ -13,7 +13,7 @@
                         echo Carbon\Carbon::parse($aktualnosc->created_at)->format('d F, Y');
                     @endphp
                 </p>
-                <a href='{{url("aktualnosc_$aktualnosc->id.".'_'.".$aktualnosc->title")}}'>
+                <a href='{{url("aktualnosc_$aktualnosc->id")}}'>
                     {{$aktualnosc->title}}
                 </a>
             </div>
