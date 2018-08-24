@@ -26,8 +26,12 @@
                 <div class="col-lg-8 mt-4 nopaddinglowwidth">
                     <div class="card-body" style="padding: 0;">
                         <section id="content">
+                            <?php $count = 0; ?>
                             @foreach($aktualnosciDB as $aktualnosc)
-                                <div class=" marginBottom-40 padding10lowwidth wow slideInUp newscontainer">
+                                <?php
+                                $count++;
+                                ?>
+                                <div id="news{{$count}}" class="<?php if($count > 20): ?> displaynoneimportant <?php endif ?> marginBottom-40 padding10lowwidth wow slideInUp newscontainer">
                                     <div class="col-md-3 px-md-0 hover:parent width55telefon imagecontainer">
 
                                         <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -47,7 +51,7 @@
 
                                     <div class="col-md-9 px-md-0 nopaddinglowwidth">
                                         <div class="card paddingLeft-20 padding10lowwidth height-100p">
-                                            <a href='{{url("/aktualnosc_$aktualnosc->id".'_'."$aktualnosc->title")}}'
+                                            <a href='{{url("/aktualnosc_$aktualnosc->id")}}'
                                                class="h4 mb-3 titlenews">
                                                 {{$aktualnosc->title}}
                                             </a>
@@ -63,6 +67,8 @@
                                     </div>
                                 </div>
                             @endforeach
+                            <button id="show_more_btn" onclick="show_more(event)" data-newscount="@php echo $count; @endphp"
+                                    class="btn_show_more mx-auto d-block wow slideInUp">Zobacz więcej</button>
                         </section>
                     </div>
                 </div>
@@ -72,4 +78,27 @@
         </div> <!-- END container-->
     </section>
 
+    <script>
+        function show_more(e) {
+            var news_count = e.target.getAttribute('data-newscount');
+            news_count = parseInt(news_count);
+            var visible_count = 0;
+
+            for(var i = 1; i <= news_count; i++) {
+                if(!document.getElementById('news' + i).classList.contains('displaynoneimportant')) {
+                    visible_count++;
+                }
+            }
+
+            const goal = visible_count + 20;
+            for(var i = visible_count; i <= goal; i++) {
+                if(i <= news_count) {
+                    document.getElementById('news' + i).classList.remove('displaynoneimportant');
+                }
+                if(i >= news_count) {
+                    document.getElementById('show_more_btn').classList.add('displaynoneimportant');
+                }
+            }
+        }
+    </script>
 @endsection

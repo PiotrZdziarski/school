@@ -1,126 +1,55 @@
+<p>9 czerwca w godzina 10-13 w I LO J. Chełmońskiego odbędzie się Mały Piknik Naukowy.</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum
+<div class="col-sm-7 mx-auto paddingTop-20">
+    <div class="hover:parent no4-3">
 
-<h5 class="paddingTop-30">Hippotoxota, eleates, et guttus.</h5>
+        <img src="{{url('/assets/img/aktualnosci/plakat-piknik-naukowy-399x600.png')}}">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+            <a href="{{url('/assets/img/aktualnosci/plakat-piknik-naukowy-399x600.png')}}" data-fancybox="{{$aktualnosc[0]->title}}"
+               class="iconbox bg-white ti-zoom-in text-primary"></a>
+        </div>
 
-<p>Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum</p>
-
+    </div>
+</div>
+<p class="paddingTop-40">Patronat honorowy nad Piknikiem objął Starosta Łowicki – Pan Krzysztof Figat, patronat medialny „Nowy Łowiczanin”:</p>
 
 <!--LISTA -->
-<h6>Nirvana is not the great heaven of the saint.</h6>
+<p class="paddingTop-20">Wśród gości będą:</p>
 <ul class="list-unstyled list-style-icon list-icon-bullet">
-    <li class="paddingTop-10">Virtual green people, to the solar system.</li>
-    <li>To the tender noodles add eggs.</li>
-    <li>Eheu, cotta!</li>
-    <li>Stormy, scurvy scallywags impatiently break an old, big reef.</li>
+    <li>Experymentarium – pokazy z suchym lodem, ciekłym azotem oraz prezentacja eksponatów naukowych</li>
+    <li>IPN w Łodzi</li>
+    <li>Uczelnie (Uniwersytet Łódzki, Politechnika Łódzka, Uniwersytet Ekonomiczny w Poznaniu, Szkoła Główna Służby Pożarniczej w Warszawie, Wyższa Szkoła Gospodarki Krajowej w Kutnie, Państwowa Wyższa Szkoła Zawodowa w Skierniewicach, Wyższa Szkoła Biznesu i Nauk o Zdrowiu w Łodzi, Akademia Humanistyczno-Ekonomiczna w Łodzi, Studium Pracowników Społecznych i Medycznych w Łodzi)</li>
+    <li>ŁOK</li>
+    <li>PTTK</li>
+    <li>Muzeum w Łowiczu</li>
+    <li>Łowicki Klub Krótkofalowców</li>
+    <li>Bractwo Rycerskie w Łowiczu</li>
+    <li>Grupa Rekonstrukcji Historycznych „Wolno</li>
+    <li>Poradnia Psychologiczno-Pedagogiczna w Łowiczu</li>
+    <li>Stowarzyszenie Historyczne Pułk 37 w Kutnie</li>
+    <li>Sanepid w Łowiczu</li>
+    <li>Komenda Powiatowej Państwowej Straży Pożarnej</li>
+    <li>Komenda Policji w Łowiczu</li>
+    <li>Wojskowa Komenda Uzupełnień w Skierniewicach</li>
+    <li>Hufiec ZHP w Łowiczu</li>
+    <li>pokazy, gry i zabawy przygotowane przez uczniów I Liceum Ogólnokształcącego im. J. Chełmońskiego w Łowiczu.</li>
 </ul>
 <!-- KONIEC LSITY -->
 
+<p class="paddingTop-20">Wydarzeniu towarzyszyć będzie wystawa IPN „Kalendarium Łodzi 1939–1989. Od czterech kultur do monokultury”.</p>
 
+<p class="paddingTop-20">Sponsorami imprezy są:</p>
+<ul class="list-unstyled list-style-icon list-icon-bullet">
+    <li>Pan Krzysztof Figat – Starosta Powiatu Łowickiego</li>
+    <li>Pan Krzysztof Jan Kaliński – Burmistrz Miasta Łowicza</li>
+    <li>Pan Janusz Sobotko – dyrektor oddziału Banku PKO SA w Łowicz</li>
+    <li>Pani Ewa Kurczak – dyrektor oddziału Banku Spółdzielczego Ziemi Łowickiej</li>
+    <li>Pani Marzena Bąbińska-Zygmunt – przewodnicząca Rady Rodziców</li>
+    <li>Państwo Agnieszka Piorun i Radosław Grzegorek – Usługi Instalacyjno-Hydrauliczne</li>
+    <li>Pani Elżbieta Kozieł – Niepubliczny Zakład Opieki Zdrowotnej</li>
+    <li>Pan Ludwik Fijałkowski – EKO- FOL Hurtownia Ogrodnicza</li>
+</ul>
 
+<h6 class="paddingTop-30">Zapraszamy!</h6>
 
-<!-- 2 ZDGJĘCIA W RZĘDZIE -->
-<div class="display-flex-center paddingTop-20">
-
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
-        <div class="hover:parent no4-3">
-
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/school/budynek.jpg')}}'); height: 300px;"></div>
-
-            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/school/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
-        <div class="hover:parent no4-3">
-
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/360x400/3.jpg')}}'); height: 300px;"></div>
-
-            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/360x400/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
-            </div>
-
-        </div>
-    </div>
-
-</div>
-<!-- KONIEC 2 ZDJĘĆ W RZĘDZIE -->
-
-
-
-<!-- 1 ZDJĘCIE W RZĘDZIE-->
-<div class="col-lg-12 mx-auto paddingTop-40">
-    <div class="hover:parent no4-3">
-
-        <img src="{{url('/assets/img/subpages/czworka.jpg')}}">
-
-        <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-            <a href="{{url('/assets/img/subpages/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
-        </div>
-
-    </div>
-</div>
-<!-- KONIEC 1 ZDJĘCIA W RZĘDZIE-->
-
-
-<div class="table-responsive my-4 paddingTop-40">
-    <table class="table table-bordered" style="font-family: Arial,sans-serif; overflow-x: scroll;">
-        <thead>
-        <tr>
-            <th scope="col"><b>Rok</b></th>
-            <th scope="col">Miejsce w Polsce</th>
-            <th scope="col">Miejsce w województwie łódzkim</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row"><b>2017</b></th>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <th scope="row"><b>2016</b></th>
-            <td>3</td>
-            <td>4</td>
-        </tr><tr>
-            <th scope="row"><b>2015</b></th>
-            <td>5</td>
-            <td>6</td>
-        </tr><tr>
-            <th scope="row"><b>2014</b></th>
-            <td>7</td>
-            <td>8</td>
-        </tr><tr>
-            <th scope="row"><b>2013</b></th>
-            <td>9</td>
-            <td>10</td>
-        </tr><tr>
-            <th scope="row"><b>2012</b></th>
-            <td>11</td>
-            <td>12</td>
-        </tr><tr>
-            <th scope="row"><b>2011</b></th>
-            <td>13</td>
-            <td>14</td>
-        </tr>
-        </tbody>
-    </table>
-</div>

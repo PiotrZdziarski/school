@@ -43,7 +43,7 @@ deserunt mollit anim id est laborum
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/school/budynek.jpg')}}'); height: 300px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/school/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
@@ -55,7 +55,7 @@ deserunt mollit anim id est laborum
             <div class="w-100 image" style="background-image: url('{{url('/assets/img/360x400/3.jpg')}}'); height: 300px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/360x400/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
@@ -67,13 +67,13 @@ deserunt mollit anim id est laborum
 
 
 <!-- 1 ZDJĘCIE W RZĘDZIE-->
-<div class="col-lg-12 mx-auto paddingTop-40">
+<div class="col-sm-12 mx-auto paddingTop-40">
     <div class="hover:parent no4-3">
 
-        <img src="{{url('/assets/img/subpages/czworka.jpg')}}">
+        <img src="{{url('/assets/img/aktualnosci/czworka.jpg')}}">
 
         <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-            <a href="{{url('/assets/img/subpages/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            <a href="{{url('/assets/img/aktualnosci/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
         </div>
 
     </div>

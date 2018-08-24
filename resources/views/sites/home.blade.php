@@ -130,13 +130,13 @@
                                     echo Carbon\Carbon::parse($aktualnosc->created_at)->format('d F, Y');
                                 @endphp
                             </p>
-                            <a href="#" class="h4 mb-3">
+                            <a href="{{url("aktualnosc_$aktualnosc->id")}}" class="h4 mb-3">
                                 {{$aktualnosc->title}}
                             </a>
                             <p>
                                 {{$aktualnosc->description}}
                             </p>
-                            <a href="#" class="btn btn-outline-primary align-self-start mt-2">
+                            <a href="{{url("aktualnosc_$aktualnosc->id")}}" class="btn btn-outline-primary align-self-start mt-2">
                                 Zobacz więcej
                             </a>
                         </div>
