@@ -1,49 +1,55 @@
+<p>W dniach 28 – 30 maja br. w Zespole Szkół Hotelarsko – Turystycznych im. W. Zamoyskiego w Zakopanem miał miejsce
+    finał VIII Międzypowiatowego Konkursu Matematycznego. 4 najlepszych uczniów powiatu łowickiego wyłonionych w
+    rozgrywkach międzyszkolnych uczestniczyło w wycieczce do Zakopanego pod opieką nauczycielki matematyki pani
+    Agnieszki Osiołkowskiej.</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum
+<p>Uczniowie szkół czterech partnerskich powiatów: kartuskiego, łowickiego, tatrzańskiego i świdnickiego, wyłonieni
+    wcześniej w eliminacjach powiatowych rywalizowali w dwóch kategoriach: drużynowej i indywidualnej.</p>
 
-<h5 class="paddingTop-30">Hippotoxota, eleates, et guttus.</h5>
+<p>Uczniowie pierwszego dnia zwiedzili słynną ulicę Zakopanego – Krupówki, a także Skocznię Narciarską, wieczorem
+    skorzystali z dobrodziejstw Zakopiańskiego Aquaparku.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<p>Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum</p>
+<p>Następnego dnia po matematycznych zmaganiach uczestnicy konkursu i opiekunowie poszli na górską wycieczkę. Kolejką
+    górską dotarli na Kasprowy Wierch, po czym zeszli Doliną Gąsiennicową. Wycieczce przewodniczył Starosta Tatrzański
+    Piotr Bąk. Wieczorem odbyło się także spotkanie młodzieży, uroczysta kolacja góralska, podczas której uczniowie
+    Zespołu Szkół Ogólnokształcących w Zakopanem- wychowankowie Pani Katarzyny Chowaniec – Trebunii – zaprezentowali
+    swoim kolegom folklor i tradycje regionalne Podhala. Drużyna naszego powiatu w składzie: Michalina Wielemborek,
+    Hubert Kępka, Szymon Gajewski i Piotr Workowski – uczeń ZSP nr 4 bardzo chętnie integrowali się z młodzieżą z innych
+    powiatów.</p>
 
 
-<!--LISTA -->
-<h6>Nirvana is not the great heaven of the saint.</h6>
-<ul class="list-unstyled list-style-icon list-icon-bullet">
-    <li class="paddingTop-10">Virtual green people, to the solar system.</li>
-    <li>To the tender noodles add eggs.</li>
-    <li>Eheu, cotta!</li>
-    <li>Stormy, scurvy scallywags impatiently break an old, big reef.</li>
-</ul>
-<!-- KONIEC LSITY -->
+<div class="col-sm-8 mx-auto paddingTop-30">
+    <div class="hover:parent no4-3">
+
+        <img src="{{url('/assets/img/aktualnosci/20180529_210445-e1528138350266-450x600.jpg')}}">
+
+        <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+            <a href="{{url('/assets/img/aktualnosci/20180529_210445-e1528138350266-450x600.jpg')}}"
+               data-fancybox="{{$aktualnosc[0]->title}}"
+               class="iconbox bg-white ti-zoom-in text-primary"></a>
+        </div>
+
+    </div>
+</div>
+
+<p class="paddingTop-40">Nad przebiegiem konkursu czuwała komisja składająca się z nauczycielek matematyki szkół z
+    poszczególnych powiatów.</p>
+<p>Uczniowie naszego powiatu zajęli 4 miejsce, jednak różnice punktowe pomiędzy 2, a 4 miejscem były bardzo niewielkie.
+    Zdecydowanie wygrał jednak powiat Świdnicki. Wszystkim uczestnikom gratulujemy zaangażowania i dalszej zabawy z
+    matematyką.</p>
 
 
-
-
-<!-- 2 ZDGJĘCIA W RZĘDZIE -->
 <div class="display-flex-center paddingTop-20">
 
     <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/school/budynek.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/20180530_123925-375x281.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/school/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/20180530_123925-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
@@ -52,75 +58,47 @@ deserunt mollit anim id est laborum
     <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/360x400/3.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/20180529_090232-375x281.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/360x400/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/20180529_090232-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
     </div>
 
 </div>
-<!-- KONIEC 2 ZDJĘĆ W RZĘDZIE -->
 
+<div class="display-flex-center paddingTop-20">
 
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
 
-<!-- 1 ZDJĘCIE W RZĘDZIE-->
-<div class="col-lg-12 mx-auto paddingTop-40">
-    <div class="hover:parent no4-3">
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/20180529_192713-375x281.jpg')}}'); height: 220px;"></div>
 
-        <img src="{{url('/assets/img/subpages/czworka.jpg')}}">
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/20180529_192713-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
 
-        <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-            <a href="{{url('/assets/img/subpages/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
         </div>
-
     </div>
-</div>
-<!-- KONIEC 1 ZDJĘCIA W RZĘDZIE-->
 
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
 
-<div class="table-responsive my-4 paddingTop-40">
-    <table class="table table-bordered" style="font-family: Arial,sans-serif; overflow-x: scroll;">
-        <thead>
-        <tr>
-            <th scope="col"><b>Rok</b></th>
-            <th scope="col">Miejsce w Polsce</th>
-            <th scope="col">Miejsce w województwie łódzkim</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row"><b>2017</b></th>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <th scope="row"><b>2016</b></th>
-            <td>3</td>
-            <td>4</td>
-        </tr><tr>
-            <th scope="row"><b>2015</b></th>
-            <td>5</td>
-            <td>6</td>
-        </tr><tr>
-            <th scope="row"><b>2014</b></th>
-            <td>7</td>
-            <td>8</td>
-        </tr><tr>
-            <th scope="row"><b>2013</b></th>
-            <td>9</td>
-            <td>10</td>
-        </tr><tr>
-            <th scope="row"><b>2012</b></th>
-            <td>11</td>
-            <td>12</td>
-        </tr><tr>
-            <th scope="row"><b>2011</b></th>
-            <td>13</td>
-            <td>14</td>
-        </tr>
-        </tbody>
-    </table>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/20180529_144310-1-375x281.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/20180529_144310-1-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
 </div>

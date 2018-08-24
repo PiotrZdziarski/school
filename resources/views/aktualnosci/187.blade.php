@@ -1,37 +1,16 @@
+<p>W czwartek, 24 maja 2018 roku o godzinie 17.00 w Łowickim Ośrodku Kultury odbył się benefis łowickiego pisarza, poety
+    i lekarza – pana Zbigniewa Kostrzewy.</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum
+<p>Spotkanie prowadził pan Jacek Rutkowski – dyrektor Muzeum Guzików i administrator Łowickiego Wehikułu Czasu.</p>
 
-<h5 class="paddingTop-30">Hippotoxota, eleates, et guttus.</h5>
+<p>Była to prezentacja najświeższej książki pana Zbigniewa Kostrzewy – Varia, ale także podsumowanie działalności
+    twórczej kilkunastu ostatnich lat. Pisarz wyróżnił młodzież I LO i zwrócił się z prośbą o przygotowanie montażu
+    słowno – muzycznego, który uświetniłby spotkanie. Wybrał naszych uczniów nieprzypadkowo. Uczniowie klas 1a, 1c, 2c i
+    2d poświęcili swój prywatny czas i przedstawili wiersze, skecze i piosenki inspirowane działalnością pisarza. Była
+    to prawdziwa intelektualna uczta na wysokim poziomie!</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<p>Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum</p>
-
-
-<!--LISTA -->
-<h6>Nirvana is not the great heaven of the saint.</h6>
-<ul class="list-unstyled list-style-icon list-icon-bullet">
-    <li class="paddingTop-10">Virtual green people, to the solar system.</li>
-    <li>To the tender noodles add eggs.</li>
-    <li>Eheu, cotta!</li>
-    <li>Stormy, scurvy scallywags impatiently break an old, big reef.</li>
-</ul>
-<!-- KONIEC LSITY -->
-
-
+<p>Mentorką grupy była nasza polonistka – pani Beata Bończak. Występ naszych wspaniałych aktorów docenili przybyli na
+    spotkanie goście.</p>
 
 
 <!-- 2 ZDGJĘCIA W RZĘDZIE -->
@@ -40,10 +19,12 @@ deserunt mollit anim id est laborum
     <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/school/budynek.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/varia-1-375x281.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/school/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/varia-1-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
@@ -52,10 +33,12 @@ deserunt mollit anim id est laborum
     <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/360x400/3.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/varia-2-375x281.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/360x400/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/varia-2-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
@@ -65,62 +48,68 @@ deserunt mollit anim id est laborum
 <!-- KONIEC 2 ZDJĘĆ W RZĘDZIE -->
 
 
+<div class="display-flex-center paddingTop-20">
 
-<!-- 1 ZDJĘCIE W RZĘDZIE-->
-<div class="col-lg-12 mx-auto paddingTop-40">
-    <div class="hover:parent no4-3">
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
 
-        <img src="{{url('/assets/img/subpages/czworka.jpg')}}">
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/varia-3-375x281.jpg')}}'); height: 220px;"></div>
 
-        <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-            <a href="{{url('/assets/img/subpages/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/varia-3-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
         </div>
-
     </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/varia-4-375x281.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/varia-4-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
 </div>
-<!-- KONIEC 1 ZDJĘCIA W RZĘDZIE-->
 
 
-<div class="table-responsive my-4 paddingTop-40">
-    <table class="table table-bordered" style="font-family: Arial,sans-serif; overflow-x: scroll;">
-        <thead>
-        <tr>
-            <th scope="col"><b>Rok</b></th>
-            <th scope="col">Miejsce w Polsce</th>
-            <th scope="col">Miejsce w województwie łódzkim</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row"><b>2017</b></th>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <th scope="row"><b>2016</b></th>
-            <td>3</td>
-            <td>4</td>
-        </tr><tr>
-            <th scope="row"><b>2015</b></th>
-            <td>5</td>
-            <td>6</td>
-        </tr><tr>
-            <th scope="row"><b>2014</b></th>
-            <td>7</td>
-            <td>8</td>
-        </tr><tr>
-            <th scope="row"><b>2013</b></th>
-            <td>9</td>
-            <td>10</td>
-        </tr><tr>
-            <th scope="row"><b>2012</b></th>
-            <td>11</td>
-            <td>12</td>
-        </tr><tr>
-            <th scope="row"><b>2011</b></th>
-            <td>13</td>
-            <td>14</td>
-        </tr>
-        </tbody>
-    </table>
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/varia-5-375x281.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/varia-5-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/varia-6-375x281.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/varia-6-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
 </div>
+
