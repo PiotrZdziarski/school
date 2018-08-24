@@ -16,7 +16,7 @@
 <!-- 2 ZDGJĘCIA W RZĘDZIE -->
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image"
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image"
@@ -50,7 +50,7 @@
 
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image"
@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image"
@@ -83,7 +83,7 @@
 
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image"
@@ -97,7 +97,7 @@
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
             <div class="w-100 image"

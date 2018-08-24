@@ -1,126 +1,172 @@
+<p>W dniach 13-15 czerwca 2018 klasa 1c uczestniczyła w super szkolnej wycieczce…</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum
-
-<h5 class="paddingTop-30">Hippotoxota, eleates, et guttus.</h5>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<p>Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum</p>
-
-
-<!--LISTA -->
-<h6>Nirvana is not the great heaven of the saint.</h6>
+<h6> Oto niektóre punkty programu naszej wycieczki:</h6>
 <ul class="list-unstyled list-style-icon list-icon-bullet">
-    <li class="paddingTop-10">Virtual green people, to the solar system.</li>
-    <li>To the tender noodles add eggs.</li>
-    <li>Eheu, cotta!</li>
-    <li>Stormy, scurvy scallywags impatiently break an old, big reef.</li>
+    <li class="paddingTop-10">spacer po słynnych Krupówkach;</li>
+    <li>spacer z przewodnikiem po Dolinie Strążyskiej – z Polany Strążyskiej wejście trasą do wodospadu Siklawica;</li>
+    <li>zwiedzanie stolicy Małopolski – Krakowa: Stare Miasto, Rynek z Kościołem Mariackim i Sukiennicami, Królewska
+        Katedra na Wawelu, Dzwon Zygmunta oraz słynna Franciszkańska 3.
+    </li>
 </ul>
-<!-- KONIEC LSITY -->
+
+<p>W czasie wolnym, uczniowie korzystali ze świetlicy grając w bilard, tenisa stołowego, piłkarzyki, cymbergaja i gry
+    video. Grupa uczniów skorzystała także z lokalnego basenu, sauny i jacuzzi.</p>
+
+<p>Kierownikiem wycieczki był Sylwester Pawlak, opiekunami: Agata Trębska oraz Jakub Szkup.</p>
+
+<p>Organizator: Biuro Podróży DIEGO.</p>
+
+<p>Dziękujemy wszystkim za świetnie spędzony czas!</p>
 
 
-
-
-<!-- 2 ZDGJĘCIA W RZĘDZIE -->
 <div class="display-flex-center paddingTop-20">
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/school/budynek.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-5-375x249.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/school/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-5-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/360x400/3.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-1-375x249.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/360x400/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-1-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
     </div>
 
 </div>
-<!-- KONIEC 2 ZDJĘĆ W RZĘDZIE -->
 
 
+<div class="display-flex-center paddingTop-20">
 
-<!-- 1 ZDJĘCIE W RZĘDZIE-->
-<div class="col-lg-12 mx-auto paddingTop-40">
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-2-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-2-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-3-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-3-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-6-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-6-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-8-375x211.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-8-375x211.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-9-199x300.jpg')}}'); height: 350px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-9-199x300.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-15 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/klasa1c-0-214x300.jpg')}}'); height: 350px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/klasa1c-0-214x300.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}"
+                   class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="col-sm-11 mx-auto paddingTop-40">
     <div class="hover:parent no4-3">
 
-        <img src="{{url('/assets/img/subpages/czworka.jpg')}}">
+        <img src="{{url('/assets/img/aktualnosci/klasa1c-12jpg-600x399.jpg')}}">
 
         <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-            <a href="{{url('/assets/img/subpages/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            <a href="{{url('/assets/img/aktualnosci/klasa1c-12jpg-600x399.jpg')}}"
+               data-fancybox="{{$aktualnosc[0]->title}}"
+               class="iconbox bg-white ti-zoom-in text-primary"></a>
         </div>
 
     </div>
-</div>
-<!-- KONIEC 1 ZDJĘCIA W RZĘDZIE-->
-
-
-<div class="table-responsive my-4 paddingTop-40">
-    <table class="table table-bordered" style="font-family: Arial,sans-serif; overflow-x: scroll;">
-        <thead>
-        <tr>
-            <th scope="col"><b>Rok</b></th>
-            <th scope="col">Miejsce w Polsce</th>
-            <th scope="col">Miejsce w województwie łódzkim</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row"><b>2017</b></th>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <th scope="row"><b>2016</b></th>
-            <td>3</td>
-            <td>4</td>
-        </tr><tr>
-            <th scope="row"><b>2015</b></th>
-            <td>5</td>
-            <td>6</td>
-        </tr><tr>
-            <th scope="row"><b>2014</b></th>
-            <td>7</td>
-            <td>8</td>
-        </tr><tr>
-            <th scope="row"><b>2013</b></th>
-            <td>9</td>
-            <td>10</td>
-        </tr><tr>
-            <th scope="row"><b>2012</b></th>
-            <td>11</td>
-            <td>12</td>
-        </tr><tr>
-            <th scope="row"><b>2011</b></th>
-            <td>13</td>
-            <td>14</td>
-        </tr>
-        </tbody>
-    </table>
 </div>
