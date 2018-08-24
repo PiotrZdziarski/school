@@ -1,49 +1,43 @@
+<p>10 czerwca w godzinach 10.00-13.00 odbył się pierwszy w historii naszej szkoły Piknik Naukowy pod patronatem
+    honorowym Starosty Łowickiego – Pana Krzysztofa Figata i patronatem medialnym „Nowego Łowiczanina”. Celem
+    przedsięwzięcia było zaprezentowanie różnych dyscyplin naukowych w sposób inny niż ten, który jest nam znany z
+    lekcji.</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum
+<p>Wśród prezentujących się gości znaleźli się: Experymentarium – pokazy z suchym lodem, ciekłym azotem oraz prezentacja
+    eksponatów naukowych , IPN w Łodzi, Uczelnie (Uniwersytet Łódzki, Politechnika Łódzka, Uniwersytet Ekonomiczny w
+    Poznaniu, Szkoła Główna Służby Pożarniczej w Warszawie, Wyższa Szkoła Gospodarki Krajowej w Kutnie, Państwowa Wyższa
+    Szkoła Zawodowa w Skierniewicach, Wyższa Szkoła Biznesu i Nauk o Zdrowiu w Łodzi, Akademia Humanistyczno-Ekonomiczna
+    w Łodzi, Studium Pracowników Społecznych i Medycznych w Łodzi), ŁOK, PTTK , Muzeum w Łowiczu, Łowicki Klub
+    Krótkofalowców, Bractwo Rycerskie w Łowiczu, Grupa Rekonstrukcji Historycznych „Wolność i Niezawisłość” Poradnia
+    Psychologiczno-Pedagogiczna w Łowiczu, Stowarzyszenie Historyczne Pułk 37 w Kutnie, Sanepid w Łowiczu, Komenda
+    Powiatowej Państwowej Straży Pożarnej w Łowiczu, Komenda Powiatowa Policji w Łowiczu, Wojskowa Komenda Uzupełnień w
+    Skierniewicach, Hufiec ZHP w Łowiczu. Stoiska wyżej wymienionych instytucji zwiedzali nie tylko uczniowie I LO, ale
+    także ich rodziny, czy przedstawiciele władz lokalnych. Mogli oni poznać tajemniczy świat owadów tropikalnych (w tym
+    największego ślimaka lądowego), sposoby zachowywania się suchego lodu i przedmiotów w kontakcie z ciekłym azotem, a
+    także tajniki strzelania z łuku i średniowiecznego kowalstwa. Experymentarium umożliwiło zwiedzającym porównanie
+    ludzkiego tętna z tętnem myszy oraz poznanie budowy kołyski Newtona. Podziwiano również wile rodzajów skał i kamieni
+    z różnych zakątków świata, a uczniowie naszej szkoły przyciągnęli uwagę pokazami z wykorzystaniem cieczy
+    nienewtonowskiej. Na Sali gimnastycznej była eksponowana wystawa „Kalendarium Łodzi 1939–1989. Od czterech kultur do
+    monokultury”. Czas umilały wszelkiego rodzaju konkursy, gry i zabawy, przygotowane przez uczniów i nauczycieli
+    naszej Szkoły.</p>
 
-<h5 class="paddingTop-30">Hippotoxota, eleates, et guttus.</h5>
+<p>Piknik spotkał się z bardzo pozytywnym odbiorem. Nie tylko najmłodsze dzieci, ale również dorośli byli pod dużym
+    wrażeniem wszystkich atrakcji, czego dowodzą niżej zamieszczone fotografie.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Mamy nadzieję, że w przyszłym roku podczas kolejnej edycji Pikniku pogoda jak i frekwencja zwiedzających nas nie
+    zawiodą!</p>
 
-<p>Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum</p>
-
-
-<!--LISTA -->
-<h6>Nirvana is not the great heaven of the saint.</h6>
-<ul class="list-unstyled list-style-icon list-icon-bullet">
-    <li class="paddingTop-10">Virtual green people, to the solar system.</li>
-    <li>To the tender noodles add eggs.</li>
-    <li>Eheu, cotta!</li>
-    <li>Stormy, scurvy scallywags impatiently break an old, big reef.</li>
-</ul>
-<!-- KONIEC LSITY -->
-
-
-
-
-<!-- 2 ZDGJĘCIA W RZĘDZIE -->
 <div class="display-flex-center paddingTop-20">
 
     <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/school/budynek.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/IMG_1571-375x250.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/school/budynek.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/IMG_1571-375x250.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
@@ -52,75 +46,213 @@ deserunt mollit anim id est laborum
     <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
         <div class="hover:parent no4-3">
 
-            <div class="w-100 image" style="background-image: url('{{url('/assets/img/360x400/3.jpg')}}'); height: 300px;"></div>
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/IMG_1564-375x250.jpg')}}'); height: 220px;"></div>
 
             <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-                <a href="{{url('/assets/img/360x400/3.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+                <a href="{{url('/assets/img/aktualnosci/IMG_1564-375x250.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
             </div>
 
         </div>
     </div>
 
 </div>
-<!-- KONIEC 2 ZDJĘĆ W RZĘDZIE -->
 
 
+<div class="display-flex-center paddingTop-20">
 
-<!-- 1 ZDJĘCIE W RZĘDZIE-->
-<div class="col-lg-12 mx-auto paddingTop-40">
-    <div class="hover:parent no4-3">
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
 
-        <img src="{{url('/assets/img/subpages/czworka.jpg')}}">
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/IMG_1438-375x250.jpg')}}'); height: 220px;"></div>
 
-        <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
-            <a href="{{url('/assets/img/subpages/czworka.jpg')}}" data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/IMG_1438-375x250.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
         </div>
-
     </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/IMG_1368-375x250.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/IMG_1368-375x250.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
 </div>
-<!-- KONIEC 1 ZDJĘCIA W RZĘDZIE-->
 
 
-<div class="table-responsive my-4 paddingTop-40">
-    <table class="table table-bordered" style="font-family: Arial,sans-serif; overflow-x: scroll;">
-        <thead>
-        <tr>
-            <th scope="col"><b>Rok</b></th>
-            <th scope="col">Miejsce w Polsce</th>
-            <th scope="col">Miejsce w województwie łódzkim</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row"><b>2017</b></th>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <th scope="row"><b>2016</b></th>
-            <td>3</td>
-            <td>4</td>
-        </tr><tr>
-            <th scope="row"><b>2015</b></th>
-            <td>5</td>
-            <td>6</td>
-        </tr><tr>
-            <th scope="row"><b>2014</b></th>
-            <td>7</td>
-            <td>8</td>
-        </tr><tr>
-            <th scope="row"><b>2013</b></th>
-            <td>9</td>
-            <td>10</td>
-        </tr><tr>
-            <th scope="row"><b>2012</b></th>
-            <td>11</td>
-            <td>12</td>
-        </tr><tr>
-            <th scope="row"><b>2011</b></th>
-            <td>13</td>
-            <td>14</td>
-        </tr>
-        </tbody>
-    </table>
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/43-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/43-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/42-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/42-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/20180530_123925-375x281.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/20180530_123925-375x281.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/40-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/40-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/39-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/39-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/36-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/36-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/26-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/26-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/20-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/20-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="display-flex-center paddingTop-20">
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/22-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/22-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 padding-20 tablet8padding float-left">
+        <div class="hover:parent no4-3">
+
+            <div class="w-100 image"
+                 style="background-image: url('{{url('/assets/img/aktualnosci/13-375x249.jpg')}}'); height: 220px;"></div>
+
+            <div class="card-img-overlay transition-0_3 flex-center bg-black-0_7 hover:show">
+                <a href="{{url('/assets/img/aktualnosci/13-375x249.jpg')}}"
+                   data-fancybox="{{$aktualnosc[0]->title}}" class="iconbox bg-white ti-zoom-in text-primary"></a>
+            </div>
+
+        </div>
+    </div>
+
 </div>
